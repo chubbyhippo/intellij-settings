@@ -1,8 +1,8 @@
 # Intellij-IDEA-Plugins
 IdeaVim  
 CPU Ussage Indicator  
-IdeaVim-EasyMotion
-GitToolBox
+IdeaVim-EasyMotion  
+GitToolBox  
 Indent Rainbow  
 Key Promoter X  
 Rainbow Brackets  
