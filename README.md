@@ -8,3 +8,4 @@ Key Promoter X
 Rainbow Brackets  
 Randomness  
 SonarLint  
+Spring Boot Assistant  
