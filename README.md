@@ -8,4 +8,6 @@ Key Promoter X
 Rainbow Brackets  
 Randomness  
 SonarLint  
+## Community Edition
 Spring Boot Assistant  
+Database Navigator
