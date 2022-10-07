@@ -8,6 +8,9 @@ Key Promoter X
 Rainbow Brackets  
 Randomness  
 SonarLint  
+CSV  
+Rainbow CSV  
+String Manipulation
 ## Community Edition
 Spring Boot Assistant  
 Database Navigator
