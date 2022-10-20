@@ -12,5 +12,6 @@ Rainbow CSV
 String Manipulation  
 TabMover
 ## Community Edition
+Docker  
 Spring Boot Assistant  
 Database Navigator
