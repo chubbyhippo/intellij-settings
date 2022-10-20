@@ -1,17 +1,17 @@
 # Intellij-IDEA-Plugins
-IdeaVim  
 CPU Ussage Indicator  
-IdeaVim-EasyMotion  
 GitToolBox  
+IdeaVim  
+IdeaVim-EasyMotion  
 Indent Rainbow  
 Key Promoter X  
 Rainbow Brackets  
+Rainbow CSV  
 Randomness  
 SonarLint  
-Rainbow CSV  
 String Manipulation  
-TabMover
+TabMover  
 ## Community Edition
+Database Navigator  
 Docker  
 Spring Boot Assistant  
-Database Navigator
