@@ -8,7 +8,6 @@ Key Promoter X
 Rainbow Brackets  
 Randomness  
 SonarLint  
-CSV  
 Rainbow CSV  
 String Manipulation  
 TabMover
