@@ -10,7 +10,8 @@ Randomness
 SonarLint  
 CSV  
 Rainbow CSV  
-String Manipulation
+String Manipulation  
+TabMover
 ## Community Edition
 Spring Boot Assistant  
 Database Navigator
