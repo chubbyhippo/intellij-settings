@@ -9,8 +9,7 @@ Rainbow Brackets
 Rainbow CSV  
 Randomness  
 SonarLint  
-String Manipulation  
-TabMover  
+String Manipulation   
 ## Community Edition
 Database Navigator  
 Docker  
