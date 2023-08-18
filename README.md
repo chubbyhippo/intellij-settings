@@ -1,5 +1,5 @@
 # Intellij-IDEA-Plugins
-CPU Ussage Indicator  
+CPU Usage Indicator  
 GitToolBox  
 IdeaVim  
 IdeaVim-EasyMotion  
