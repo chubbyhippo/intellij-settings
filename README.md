@@ -9,7 +9,8 @@ Rainbow Brackets
 Rainbow CSV  
 Randomness  
 SonarLint  
-String Manipulation   
+String Manipulation  
+TeXiFy IDEA
 ## Community Edition
 Database Navigator  
 Docker  
