@@ -6,6 +6,7 @@ IdeaVim-EasyMotion
 Indent Rainbow  
 JPA Buddy  
 Key Promoter X  
+Kubernetes  
 Rainbow Brackets  
 Rainbow CSV  
 Randomness  
