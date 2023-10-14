@@ -1,4 +1,5 @@
 # Intellij-IDEA-Plugins
+AceJump  
 CPU Usage Indicator  
 GitToolBox  
 IdeaVim  
