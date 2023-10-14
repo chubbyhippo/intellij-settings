@@ -20,8 +20,8 @@ Docker
 Spring Boot Assistant  
 ## CLI
 ```
-idea installPlugins krasa.CpuUsageIndicator zielu.gittoolbox IdeaVIM org.jetbrains.IdeaVim-EasyMotion indent-rainbow.indent-rainbow com.haulmont.jpab com.intellij.kubernetes izhangzhihao.rainbow.brackets com.andrey4623.rainbowcsv com.fwdekker.randomness org.sonarlint.idea
+idea installPlugins AceJump krasa.CpuUsageIndicator zielu.gittoolbox IdeaVIM org.jetbrains.IdeaVim-EasyMotion indent-rainbow.indent-rainbow com.haulmont.jpab com.intellij.kubernetes izhangzhihao.rainbow.brackets com.andrey4623.rainbowcsv com.fwdekker.randomness org.sonarlint.idea
 ```
 ```
-clion installPlugins zielu.gittoolbox IdeaVIM org.jetbrains.IdeaVim-EasyMotion indent-rainbow.indent-rainbow
+clion installPlugins AceJump zielu.gittoolbox IdeaVIM org.jetbrains.IdeaVim-EasyMotion indent-rainbow.indent-rainbow
 ```
