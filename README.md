@@ -1,5 +1,6 @@
 # Intellij-IDEA-Plugins
 AceJump  
+AssertJ Postfix Completion Plugin  
 CPU Usage Indicator  
 GitToolBox  
 IdeaVim  
