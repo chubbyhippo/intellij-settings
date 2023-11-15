@@ -9,6 +9,7 @@ Indent Rainbow
 JPA Buddy  
 Key Promoter X  
 Kubernetes  
+Mockito Postfix Completion  
 Rainbow Brackets  
 Rainbow CSV  
 Randomness  
