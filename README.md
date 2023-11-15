@@ -2,6 +2,7 @@
 AceJump  
 AssertJ Postfix Completion Plugin  
 CPU Usage Indicator  
+Custom Postfix Templates  
 GitToolBox  
 IdeaVim  
 IdeaVim-EasyMotion  
