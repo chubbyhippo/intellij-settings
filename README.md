@@ -14,7 +14,6 @@ Rainbow CSV
 Randomness  
 SonarLint  
 String Manipulation  
-TeXiFy IDEA
 ## Community Edition
 Database Navigator  
 Docker  
