@@ -9,7 +9,7 @@ Indent Rainbow
 JPA Buddy  
 Key Promoter X  
 Kubernetes  
-Rainbow Brackets  
+Rainbow Brackets Lite - Free and OpenSource  
 Rainbow CSV  
 Randomness  
 SonarLint  
