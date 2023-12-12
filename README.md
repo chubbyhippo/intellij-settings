@@ -6,6 +6,7 @@ GitToolBox
 IdeaVim  
 IdeaVim-EasyMotion  
 Indent Rainbow  
+File Expander  
 JPA Buddy  
 Key Promoter X  
 Kubernetes  
