@@ -13,6 +13,7 @@ Kubernetes
 Rainbow Brackets Lite - Free and OpenSource  
 Rainbow CSV  
 Randomness  
+Regex Rename Files  
 SonarLint  
 String Manipulation  
 ## Community Edition
