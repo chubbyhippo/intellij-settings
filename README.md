@@ -5,6 +5,7 @@ Custom Postfix Templates
 GitToolBox  
 IdeaVim  
 IdeaVim-EasyMotion  
+IdeaVim-Quickscope  
 Indent Rainbow  
 File Expander  
 JPA Buddy  
