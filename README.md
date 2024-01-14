@@ -6,6 +6,7 @@ GitToolBox
 IdeaVim  
 IdeaVim-EasyMotion  
 IdeaVim-Quickscope  
+IdeaVim-Sneak  
 Indent Rainbow  
 File Expander  
 JPA Buddy  
