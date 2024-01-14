@@ -4,7 +4,6 @@ CPU Usage Indicator
 Custom Postfix Templates  
 GitToolBox  
 IdeaVim  
-IdeaVim-EasyMotion  
 IdeaVim-Quickscope  
 IdeaVim-Sneak  
 Indent Rainbow  
