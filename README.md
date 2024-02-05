@@ -11,6 +11,7 @@ File Expander
 JPA Buddy  
 Key Promoter X  
 Kubernetes  
+Mermaid  
 Rainbow Brackets Lite - Free and OpenSource  
 Rainbow CSV  
 Randomness  
