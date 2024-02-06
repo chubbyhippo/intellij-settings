@@ -4,7 +4,6 @@ CPU Usage Indicator
 Custom Postfix Templates  
 GitToolBox  
 IdeaVim  
-IdeaVim-Quickscope  
 Indent Rainbow  
 File Expander  
 JPA Buddy  
@@ -26,5 +25,5 @@ Spring Boot Assistant
 
 ## CLI
 ```
-idea installPlugins AceJump krasa.CpuUsageIndicator de.endrullis.idea.postfixtemplates zielu.gittoolbox IdeaVIM com.joshestein.ideavim-quickscope indent-rainbow.indent-rainbow com.github.camork.fileExpander com.haulmont.jpab com.intellij.kubernetes com.intellij.mermaid izhangzhihao.rainbow.brackets.lite com.andrey4623.rainbowcsv com.fwdekker.randomness nl.bryanderidder.regexrenamefiles org.sonarlint.idea eu.theblob42.idea.whichkey mobi.hsz.idea.gitignore
+idea installPlugins AceJump krasa.CpuUsageIndicator de.endrullis.idea.postfixtemplates zielu.gittoolbox IdeaVIM indent-rainbow.indent-rainbow com.github.camork.fileExpander com.haulmont.jpab com.intellij.kubernetes com.intellij.mermaid izhangzhihao.rainbow.brackets.lite com.andrey4623.rainbowcsv com.fwdekker.randomness nl.bryanderidder.regexrenamefiles org.sonarlint.idea eu.theblob42.idea.whichkey mobi.hsz.idea.gitignore
 ```
