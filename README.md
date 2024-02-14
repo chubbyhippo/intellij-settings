@@ -27,5 +27,5 @@ Spring Boot Assistant
 
 ## CLI
 ```
-idea installPlugins krasa.CpuUsageIndicator de.endrullis.idea.postfixtemplates zielu.gittoolbox IdeaVIM io.github.mishkun.ideavimsneak indent-rainbow.indent-rainbow com.github.camork.fileExpander com.haulmont.jpab org.jetbrains.jumpToLine com.intellij.kubernetes com.intellij.mermaid izhangzhihao.rainbow.brackets.lite com.andrey4623.rainbowcsv com.fwdekker.randomness nl.bryanderidder.regexrenamefiles org.sonarlint.idea eu.theblob42.idea.whichkey mobi.hsz.idea.gitignore
+idea installPlugins krasa.CpuUsageIndicator de.endrullis.idea.postfixtemplates zielu.gittoolbox IdeaVIM com.joshestein.ideavim-quickscope io.github.mishkun.ideavimsneak indent-rainbow.indent-rainbow com.github.camork.fileExpander com.haulmont.jpab org.jetbrains.jumpToLine com.intellij.kubernetes com.intellij.mermaid izhangzhihao.rainbow.brackets.lite com.andrey4623.rainbowcsv com.fwdekker.randomness nl.bryanderidder.regexrenamefiles org.sonarlint.idea eu.theblob42.idea.whichkey mobi.hsz.idea.gitignore
 ```
