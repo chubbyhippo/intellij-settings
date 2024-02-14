@@ -3,6 +3,7 @@ CPU Usage Indicator
 Custom Postfix Templates  
 GitToolBox  
 IdeaVim  
+IdeaVim-Sneak  
 Indent Rainbow  
 File Expander  
 JPA Buddy  
