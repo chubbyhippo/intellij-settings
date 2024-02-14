@@ -3,6 +3,7 @@ CPU Usage Indicator
 Custom Postfix Templates  
 GitToolBox  
 IdeaVim  
+IdeaVim-Quickscope  
 IdeaVim-Sneak  
 Indent Rainbow  
 File Expander  
