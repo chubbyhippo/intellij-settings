@@ -23,7 +23,7 @@ Which-Key
 ## Community Edition
 Database Navigator  
 Docker  
-Lombok 
+Lombok  
 Spring Boot Assistant  
 
 ## CLI
