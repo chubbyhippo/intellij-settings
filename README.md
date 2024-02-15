@@ -23,6 +23,7 @@ Which-Key
 ## Community Edition
 Database Navigator  
 Docker  
+Gherkin  
 Lombok  
 Spring Boot Assistant  
 
