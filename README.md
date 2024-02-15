@@ -26,6 +26,7 @@ Docker
 Gherkin  
 Lombok  
 Spring Boot Assistant  
+WebCalm: JavaScript and CSS  
 
 ## CLI
 ```
