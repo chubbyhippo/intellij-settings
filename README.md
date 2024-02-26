@@ -1,4 +1,5 @@
 # Intellij-IDEA-Plugins
+Alpine.​js Support  
 CPU Usage Indicator  
 Custom Postfix Templates  
 GitToolBox  
