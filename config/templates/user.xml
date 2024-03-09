@@ -1,0 +1,10 @@
+<templateSet group="user">
+  <template name="test" value="@org.junit.jupiter.api.Test&#10;@org.junit.jupiter.api.DisplayName(&quot;$DISPLAY_NAME$&quot;)&#10;void $METHOD_NAME$() {&#10;    $END$&#10;    $BODY$&#10;}" description="Creates a new JUnit test that fails" toReformat="false" toShortenFQNames="true">
+    <variable name="DISPLAY_NAME" expression="" defaultValue="&quot;Display name for my test&quot;" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="camelCase(DISPLAY_NAME)" defaultValue="&quot;mehodName&quot;" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="&quot;org.junit.jupiter.api.Assertions.fail(\&quot;Not implemented\&quot;);&quot;" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
