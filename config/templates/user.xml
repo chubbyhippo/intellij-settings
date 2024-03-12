@@ -48,4 +48,10 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="utilclass" value="private $CLASS_NAME$() {&#10;    throw new java.lang.IllegalStateException(&quot;Utility class&quot;);&#10;}" description="Util class private constructor" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
