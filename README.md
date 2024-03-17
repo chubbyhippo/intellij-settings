@@ -30,7 +30,7 @@ Spring Boot Assistant
 WebCalm: JavaScript and CSS  
 
 ## Ctrl + Shift + A
-
+- Tab placement | None 
 ## CLI
 ### ultimate
 ```
