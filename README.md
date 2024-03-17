@@ -29,6 +29,8 @@ Lombok
 Spring Boot Assistant  
 WebCalm: JavaScript and CSS  
 
+## Ctrl + Shift + A
+
 ## CLI
 ### ultimate
 ```
