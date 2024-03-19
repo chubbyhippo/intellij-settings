@@ -32,6 +32,7 @@ Spring Boot Assistant
 WebCalm: JavaScript and CSS  
 
 ## Ctrl + Shift + A
+- Project View Options: Open Files with Single Click
 - Tab placement | None 
 ## CLI
 ### ultimate
