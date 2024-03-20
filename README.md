@@ -19,6 +19,7 @@ Rainbow Brackets Lite - Free and OpenSource
 Rainbow CSV  
 Randomness  
 Regex Rename Files  
+RestfulHelper  
 SonarLint  
 String Manipulation  
 Which-Key  
