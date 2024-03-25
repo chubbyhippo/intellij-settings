@@ -9,6 +9,7 @@ IdeaVim-Quickscope
 IdeaVim-Sneak  
 Indent Rainbow  
 File Expander  
+JHipster JDL  
 JPA Buddy  
 Jump to Line  
 Key Promoter X  
