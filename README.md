@@ -6,7 +6,6 @@ Custom Postfix Templates
 GitToolBox  
 IdeaVim  
 IdeaVim-Quickscope  
-IdeaVim-Sneak  
 Indent Rainbow  
 File Expander  
 JHipster JDL  
