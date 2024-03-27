@@ -1,12 +1,14 @@
 #!/usr/bin/env sh
 
 # configs
-for config_path in "$HOME"/.config/JetBrains/IdeaIC* \
-                  "$HOME"/.config/JetBrains/IntelliJIdea* \
-                  "$HOME"/Library/Application\ Support/JetBrains/IdeaIC* \
-                  "$HOME"/Library/Application\ Support/JetBrains/IntelliJIdea* \
-                  "$HOME"/AppData/Roaming/JetBrains/IdeaIC* \
-                  "$HOME"/AppData/Roaming/JetBrains/IntelliJIdea*
+for config_path in \
+"$HOME"/.config/JetBrains/IdeaIC* \
+"$HOME"/.config/JetBrains/IntelliJIdea* \
+"$HOME"/Library/Application\ Support/JetBrains/IdeaIC* \
+"$HOME"/Library/Application\ Support/JetBrains/IntelliJIdea* \
+"$HOME"/AppData/Roaming/JetBrains/IdeaIC* \
+"$HOME"/AppData/Roaming/JetBrains/IntelliJIdea*
+
 do
   echo "$config_path"
   if [ -d "$config_path" ]; then
