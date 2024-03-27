@@ -61,7 +61,7 @@
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="readFile" value="java.nio.file.Path filePath = java.nio.file.Paths.get(&quot;$FILE_PATH$&quot;);&#10;try {&#10;    String content = java.nio.file.Files.readString(filePath);&#10;    System.out.println(content);&#10;} catch (java.io.IOException e) {&#10;    throw new RuntimeException(e);&#10;}" description="Get string from reading text file" toReformat="false" toShortenFQNames="true">
+  <template name="readFile" value="java.nio.file.Path filePath = java.nio.file.Paths.get(&quot;$FILE_PATH$&quot;);&#10;String content = java.nio.file.Files.readString(filePath);&#10;System.out.println(content);" description="Get string from reading text file" toReformat="false" toShortenFQNames="true">
     <variable name="FILE_PATH" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
