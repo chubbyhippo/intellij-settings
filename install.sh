@@ -21,8 +21,7 @@ done
 # plugins
 cmd=idea
 if uname | grep -q "^MINGW"; then
-  echo "windows"
-  cmd=idea.cmd
+  cmd="$HOME"/AppData/Local/JetBrains/Toolbox/scripts/idea.cmd
 fi
 
 $cmd installPlugins \
