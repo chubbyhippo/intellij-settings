@@ -1,5 +1,5 @@
 # Intellij-IDEA-Plugins
-Alpine.​js Support  
+Alpine.js Support  
 AsciiDoc  
 CPU Usage Indicator  
 Custom Postfix Templates  
