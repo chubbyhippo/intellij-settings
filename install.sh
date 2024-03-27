@@ -24,3 +24,26 @@ if uname | grep -q "^MINGW"; then
 fi
 
 $cmd installPlugins \
+com.github.inxilpro.intellijalpine \
+org.asciidoctor.intellij.asciidoc \
+krasa.CpuUsageIndicator \
+de.endrullis.idea.postfixtemplates \
+zielu.gittoolbox \
+IdeaVIM \
+com.joshestein.ideavim-quickscope \
+indent-rainbow.indent-rainbow \
+com.github.camork.fileExpander \
+org.strangeway.jdl \
+com.haulmont.jpab \
+org.jetbrains.jumpToLine \
+com.intellij.kubernetes \
+com.intellij.mermaid \
+com.intellij.plugin.adernov.powershell \
+com.redhat.devtools.intellij.quarkus \
+izhangzhihao.rainbow.brackets.lite \
+com.andrey4623.rainbowcsv \
+com.fwdekker.randomness \
+nl.bryanderidder.regexrenamefiles \
+org.sonarlint.idea \
+eu.theblob42.idea.whichkey \
+mobi.hsz.idea.gitignore
