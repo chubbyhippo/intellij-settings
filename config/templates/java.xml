@@ -54,7 +54,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="writeFile" value="String content = &quot;$STRING_CONTENT$&quot;;&#10;java.nio.file.Path filePath = java.nio.file.Paths.get(&quot;$FILE_PATH$&quot;);&#10;&#10;try {&#10;    java.nio.file.Files.writeString(filePath, content);&#10;} catch (java.io.IOException e) {&#10;    throw new RuntimeException(e);&#10;}" description="Write content to file" toReformat="false" toShortenFQNames="true">
+  <template name="writeFile" value="String content = &quot;$STRING_CONTENT$&quot;;&#10;java.nio.file.Path filePath = java.nio.file.Paths.get(&quot;$FILE_PATH$&quot;);&#10;java.nio.file.Files.writeString(filePath, content);" description="Write content to file" toReformat="false" toShortenFQNames="true">
     <variable name="STRING_CONTENT" expression="" defaultValue="&quot;content&quot;" alwaysStopAt="true" />
     <variable name="FILE_PATH" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
