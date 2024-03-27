@@ -15,3 +15,12 @@ do
     cp -frv "config/templates"/* "$config_path/templates"
   fi
 done
+
+# plugins
+cmd=idea
+if uname | grep -q "^MINGW"; then
+  echo "windows"
+  cmd=idea.cmd
+fi
+
+$cmd installPlugins \
