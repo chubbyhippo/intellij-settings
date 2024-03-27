@@ -45,5 +45,6 @@ com.andrey4623.rainbowcsv \
 com.fwdekker.randomness \
 nl.bryanderidder.regexrenamefiles \
 org.sonarlint.idea \
+"String Manipulation" \
 eu.theblob42.idea.whichkey \
 mobi.hsz.idea.gitignore
