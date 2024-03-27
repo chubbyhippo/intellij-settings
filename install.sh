@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 
+# configs
 for config_path in "$HOME"/.config/JetBrains/IdeaIC* \
                   "$HOME"/.config/JetBrains/IntelliJIdea* \
                   "$HOME"/Library/Application\ Support/JetBrains/IdeaIC* \
