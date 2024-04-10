@@ -38,7 +38,6 @@ org.jetbrains.jumpToLine \
 com.intellij.kubernetes \
 com.intellij.mermaid \
 com.intellij.plugin.adernov.powershell \
-com.redhat.devtools.intellij.quarkus \
 izhangzhihao.rainbow.brackets.lite \
 com.andrey4623.rainbowcsv \
 com.fwdekker.randomness \
