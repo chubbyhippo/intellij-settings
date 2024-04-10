@@ -1,6 +1,4 @@
 # Intellij-IDEA-Plugins
-Alpine.js Support  
-AsciiDoc  
 CPU Usage Indicator  
 Custom Postfix Templates  
 GitToolBox  
@@ -21,6 +19,8 @@ String Manipulation
 Which-Key  
 .ignore  
 ## Community Edition
+AsciiDoc  
+Alpine.js Support  
 Database Navigator  
 Docker  
 Gherkin  
