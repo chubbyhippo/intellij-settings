@@ -13,7 +13,6 @@ Key Promoter X
 Kubernetes  
 Mermaid  
 PowerShell  
-Quarkus Tools  
 Rainbow Brackets Lite - Free and OpenSource  
 Rainbow CSV  
 Randomness  
