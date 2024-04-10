@@ -31,7 +31,6 @@ krasa.CpuUsageIndicator \
 de.endrullis.idea.postfixtemplates \
 zielu.gittoolbox \
 IdeaVIM \
-com.joshestein.ideavim-quickscope \
 indent-rainbow.indent-rainbow \
 com.github.camork.fileExpander \
 org.strangeway.jdl \
