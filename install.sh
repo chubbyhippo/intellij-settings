@@ -25,7 +25,6 @@ if uname | grep -q "^MINGW"; then
 fi
 
 $cmd installPlugins \
-com.github.inxilpro.intellijalpine \
 org.asciidoctor.intellij.asciidoc \
 krasa.CpuUsageIndicator \
 de.endrullis.idea.postfixtemplates \
