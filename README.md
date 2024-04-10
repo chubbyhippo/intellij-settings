@@ -7,7 +7,6 @@ GitToolBox
 IdeaVim  
 Indent Rainbow  
 File Expander  
-JPA Buddy  
 Jump to Line  
 Key Promoter X  
 Kubernetes  
