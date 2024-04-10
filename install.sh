@@ -33,7 +33,6 @@ zielu.gittoolbox \
 IdeaVIM \
 indent-rainbow.indent-rainbow \
 com.github.camork.fileExpander \
-com.haulmont.jpab \
 org.jetbrains.jumpToLine \
 com.intellij.kubernetes \
 com.intellij.mermaid \
