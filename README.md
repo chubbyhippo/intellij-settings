@@ -5,7 +5,6 @@ CPU Usage Indicator
 Custom Postfix Templates  
 GitToolBox  
 IdeaVim  
-IdeaVim-Quickscope  
 Indent Rainbow  
 File Expander  
 JHipster JDL  
