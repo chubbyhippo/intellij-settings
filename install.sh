@@ -35,6 +35,7 @@ indent-rainbow.indent-rainbow \
 com.github.camork.fileExpander \
 org.jetbrains.jumpToLine \
 com.intellij.kubernetes \
+"Lombook Plugin" \
 com.intellij.plugin.adernov.powershell \
 izhangzhihao.rainbow.brackets.lite \
 com.andrey4623.rainbowcsv \
