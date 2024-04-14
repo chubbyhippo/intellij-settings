@@ -25,6 +25,7 @@ if uname | grep -q "^MINGW"; then
 fi
 
 $cmd installPlugins \
+"Builder Generator" \
 org.asciidoctor.intellij.asciidoc \
 krasa.CpuUsageIndicator \
 de.endrullis.idea.postfixtemplates \
