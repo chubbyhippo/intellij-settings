@@ -9,6 +9,7 @@ File Expander
 Jump to Line  
 Key Promoter X  
 Kubernetes  
+Lombook Plugin  
 PowerShell  
 Rainbow Brackets Lite - Free and OpenSource  
 Rainbow CSV  
