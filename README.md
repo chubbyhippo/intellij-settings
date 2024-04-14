@@ -8,7 +8,6 @@ File Expander
 Jump to Line  
 Key Promoter X  
 Kubernetes  
-Mermaid  
 PowerShell  
 Rainbow Brackets Lite - Free and OpenSource  
 Rainbow CSV  
@@ -25,6 +24,7 @@ Database Navigator
 Docker  
 Gherkin  
 Lombok  
+Mermaid  
 Spring Boot Assistant  
 WebCalm: JavaScript and CSS  
 
