@@ -1,4 +1,5 @@
 # Intellij-IDEA-Plugins
+Builder Generator  
 CPU Usage Indicator  
 Custom Postfix Templates  
 GitToolBox  
