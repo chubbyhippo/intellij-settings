@@ -33,6 +33,7 @@ zielu.gittoolbox \
 IdeaVIM \
 indent-rainbow.indent-rainbow \
 com.github.camork.fileExpander \
+me.bechberger.jfrplugin \
 org.jetbrains.jumpToLine \
 com.intellij.kubernetes \
 "Lombook Plugin" \
