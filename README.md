@@ -6,6 +6,7 @@ GitToolBox
 IdeaVim  
 Indent Rainbow  
 File Expander  
+Java JFR Profiler  
 Jump to Line  
 Key Promoter X  
 Kubernetes  
