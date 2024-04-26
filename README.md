@@ -30,7 +30,7 @@ Lombok
 Mermaid  
 Spring Boot Assistant  
 WebCalm: JavaScript and CSS  
-
+Excalidraw Integration  
 ## Ctrl + Shift + A
 - Project View Options: Open Files with Single Click
 - Tab placement | None 
