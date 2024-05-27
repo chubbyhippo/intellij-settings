@@ -44,5 +44,6 @@ com.fwdekker.randomness \
 nl.bryanderidder.regexrenamefiles \
 org.sonarlint.idea \
 "String Manipulation" \
+StringToolsPlugin \
 eu.theblob42.idea.whichkey \
 mobi.hsz.idea.gitignore
