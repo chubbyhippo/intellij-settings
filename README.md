@@ -17,6 +17,7 @@ Randomness
 Regex Rename Files  
 SonarLint  
 String Manipulation  
+String Tools  
 Which-Key  
 .ignore  
 ## Community Edition
