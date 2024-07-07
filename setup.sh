@@ -19,11 +19,11 @@ do
 
     # install settings
     mkdir -p "$config_path/options"
-    cp -frv "config/options"/* "$config_path/options/editor.xml"
+    curl https://raw.githubusercontent.com/chubbyhippo/Intellij-settings/main/config/options/editor.xml -o "$config_path/options/editor.xml"
 
     # install templates
     mkdir -p "$config_path/templates"
-    cp -frv "config/templates"/* "$config_path/templates/java.xml"
+    curl https://raw.githubusercontent.com/chubbyhippo/Intellij-settings/main/config/templates/java.xml -o "$config_path/templates/java.xml"
 
   fi
 done
