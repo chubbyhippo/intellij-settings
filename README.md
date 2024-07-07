@@ -1,4 +1,9 @@
-# Intellij-IDEA-Plugins
+# Intellij-IDEA
+## Install settings 
+```
+curl -s https://raw.githubusercontent.com/chubbyhippo/Intellij-settings/main/setup.sh | /usr/bin/env sh
+```
+## Plugins
 Builder Generator  
 CPU Usage Indicator  
 Custom Postfix Templates  
