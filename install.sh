@@ -13,11 +13,15 @@ do
   echo "$config_path"
   if [ -d "$config_path" ]; then
 
-    # Install keymaps
+    # install keymaps
     mkdir -p "$config_path/keymaps"
     cp -frv "config/keymaps"/* "$config_path/keymaps"
 
-    # Install templates
+    # install settings
+    mkdir -p "$config_path/options"
+    cp -frv "config/options"/* "$config_path/options"
+
+    # install templates
     mkdir -p "$config_path/templates"
     cp -frv "config/templates"/* "$config_path/templates"
 
