@@ -12,9 +12,15 @@ for config_path in \
 do
   echo "$config_path"
   if [ -d "$config_path" ]; then
+
+    # Install keymaps
+    mkdir -p "$config_path/keymaps"
+    cp -frv "config/keymaps"/* "$config_path/keymaps"
+
     # Install templates
     mkdir -p "$config_path/templates"
     cp -frv "config/templates"/* "$config_path/templates"
+
   fi
 done
 
