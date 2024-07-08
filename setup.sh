@@ -28,3 +28,5 @@ do
   fi
 done
 
+# install .ideavimrc
+curl https://raw.githubusercontent.com/chubbyhippo/ideavimrc/main/.ideavimrc -o ~/.ideavimrc
