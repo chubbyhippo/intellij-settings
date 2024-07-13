@@ -11,6 +11,7 @@ GitToolBox
 IdeaVim  
 Indent Rainbow  
 File Expander  
+Fuzzier  
 Java JFR Profiler  
 Jump to Line  
 Key Promoter X  
