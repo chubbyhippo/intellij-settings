@@ -24,7 +24,7 @@ indent-rainbow.indent-rainbow \
 izhangzhihao.rainbow.brackets.lite \
 krasa.CpuUsageIndicator \
 me.bechberger.jfrplugin \
-mobi.hsz.idea.gitignore
+mobi.hsz.idea.gitignore \
 nl.bryanderidder.regexrenamefiles \
 org.asciidoctor.intellij.asciidoc \
 org.jetbrains.jumpToLine \
