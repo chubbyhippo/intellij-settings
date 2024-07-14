@@ -19,7 +19,7 @@ de.endrullis.idea.postfixtemplates \
 eu.theblob42.idea.whichkey \
 krasa.CpuUsageIndicator \
 me.bechberger.jfrplugin \
-mobi.hsz.idea.gitignore
+mobi.hsz.idea.gitignore \
 nl.bryanderidder.regexrenamefiles \
 org.jetbrains.jumpToLine \
 org.sonarlint.idea \
