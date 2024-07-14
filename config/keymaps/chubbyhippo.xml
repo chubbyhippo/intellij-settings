@@ -1,4 +1,7 @@
 <keymap version="1" name="chubbyhippo" parent="$default">
+    <action id="DebugClass">
+        <keyboard-shortcut first-keystroke="ctrl 9" />
+    </action>
     <action id="EditorDown">
         <keyboard-shortcut first-keystroke="down" />
         <keyboard-shortcut first-keystroke="ctrl j" />
@@ -15,6 +18,9 @@
         <keyboard-shortcut first-keystroke="up" />
         <keyboard-shortcut first-keystroke="ctrl k" />
     </action>
+    <action id="GotoBookmark0" />
+    <action id="GotoBookmark8" />
+    <action id="GotoBookmark9" />
     <action id="ResizeToolWindowDown">
         <keyboard-shortcut first-keystroke="shift ctrl alt down" />
         <keyboard-shortcut first-keystroke="shift ctrl alt j" />
@@ -30,5 +36,12 @@
     <action id="ResizeToolWindowUp">
         <keyboard-shortcut first-keystroke="shift ctrl alt up" />
         <keyboard-shortcut first-keystroke="shift ctrl alt k" />
+    </action>
+    <action id="RunClass">
+        <keyboard-shortcut first-keystroke="shift ctrl f10" />
+        <keyboard-shortcut first-keystroke="ctrl 0" />
+    </action>
+    <action id="RunCoverage">
+        <keyboard-shortcut first-keystroke="ctrl 8" />
     </action>
 </keymap>
