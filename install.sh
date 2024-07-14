@@ -29,31 +29,4 @@ do
 done
 
 # plugins
-cmd=idea
-if uname | grep -q "^MINGW"; then
-  cmd="$HOME"/AppData/Local/JetBrains/Toolbox/scripts/idea.cmd
-fi
-
-$cmd installPlugins \
-"Builder Generator" \
-org.asciidoctor.intellij.asciidoc \
-krasa.CpuUsageIndicator \
-de.endrullis.idea.postfixtemplates \
-zielu.gittoolbox \
-IdeaVIM \
-indent-rainbow.indent-rainbow \
-com.github.camork.fileExpander \
-me.bechberger.jfrplugin \
-org.jetbrains.jumpToLine \
-com.intellij.kubernetes \
-"Lombook Plugin" \
-com.intellij.plugin.adernov.powershell \
-izhangzhihao.rainbow.brackets.lite \
-com.andrey4623.rainbowcsv \
-com.fwdekker.randomness \
-nl.bryanderidder.regexrenamefiles \
-org.sonarlint.idea \
-"String Manipulation" \
-StringToolsPlugin \
-eu.theblob42.idea.whichkey \
-mobi.hsz.idea.gitignore
+sh intall-plugins-ij.sh
