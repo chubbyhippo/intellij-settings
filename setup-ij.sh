@@ -27,5 +27,6 @@ done
 
 # install .ideavimrc
 curl -k https://raw.githubusercontent.com/chubbyhippo/ideavimrc/main/.ideavimrc -o ~/.ideavimrc
+
 # install plugins
 curl -s https://raw.githubusercontent.com/chubbyhippo/Intellij-settings/main/install-plugins-ij.sh | /usr/bin/env sh
