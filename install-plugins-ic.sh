@@ -23,4 +23,4 @@ mobi.hsz.idea.gitignore \
 nl.bryanderidder.regexrenamefiles \
 org.jetbrains.jumpToLine \
 org.sonarlint.idea \
-zielu.gittoolbox \
+zielu.gittoolbox

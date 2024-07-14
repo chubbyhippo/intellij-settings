@@ -29,4 +29,4 @@ nl.bryanderidder.regexrenamefiles \
 org.asciidoctor.intellij.asciidoc \
 org.jetbrains.jumpToLine \
 org.sonarlint.idea \
-zielu.gittoolbox \
+zielu.gittoolbox
