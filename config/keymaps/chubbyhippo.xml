@@ -1,4 +1,11 @@
 <keymap version="1" name="chubbyhippo" parent="$default">
+    <action id="Coverage">
+        <keyboard-shortcut first-keystroke="shift ctrl 8" />
+    </action>
+    <action id="Debug">
+        <keyboard-shortcut first-keystroke="shift f9" />
+        <keyboard-shortcut first-keystroke="shift ctrl 9" />
+    </action>
     <action id="DebugClass">
         <keyboard-shortcut first-keystroke="ctrl 9" />
     </action>
@@ -37,6 +44,10 @@
         <keyboard-shortcut first-keystroke="shift ctrl alt up" />
         <keyboard-shortcut first-keystroke="shift ctrl alt k" />
     </action>
+    <action id="Run">
+        <keyboard-shortcut first-keystroke="shift f10" />
+        <keyboard-shortcut first-keystroke="shift ctrl 0" />
+    </action>
     <action id="RunClass">
         <keyboard-shortcut first-keystroke="shift ctrl f10" />
         <keyboard-shortcut first-keystroke="ctrl 0" />
@@ -44,4 +55,7 @@
     <action id="RunCoverage">
         <keyboard-shortcut first-keystroke="ctrl 8" />
     </action>
+    <action id="ToggleBookmark0" />
+    <action id="ToggleBookmark8" />
+    <action id="ToggleBookmark9" />
 </keymap>
