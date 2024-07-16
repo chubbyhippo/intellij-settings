@@ -13,6 +13,8 @@ do
     # install keymaps
     mkdir -p "$config_path/keymaps"
     curl -k https://raw.githubusercontent.com/chubbyhippo/Intellij-settings/main/config/keymaps/chubbyhippo.xml -o "$config_path/keymaps/chubbyhippo.xml"
+    mkdir -p "$config_path/keymaps/mac"
+    curl -k https://raw.githubusercontent.com/chubbyhippo/Intellij-settings/main/config/keymaps/mac/keymap.xml -o "$config_path/keymaps/mac/keymap.xml"
     mkdir -p "$config_path/keymaps/windows"
     curl -k https://raw.githubusercontent.com/chubbyhippo/Intellij-settings/main/config/keymaps/windows/keymap.xml -o "$config_path/keymaps/windows/keymap.xml"
 
