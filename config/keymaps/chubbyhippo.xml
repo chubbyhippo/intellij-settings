@@ -1,4 +1,5 @@
 <keymap version="1" name="chubbyhippo" parent="$default">
+    <action id="ChangesView.ShelveSilently" />
     <action id="Coverage">
         <keyboard-shortcut first-keystroke="shift ctrl 8" />
     </action>
@@ -8,6 +9,12 @@
     </action>
     <action id="DebugClass">
         <keyboard-shortcut first-keystroke="ctrl 9" />
+    </action>
+    <action id="DuplicatesForm.SendToLeft">
+        <keyboard-shortcut first-keystroke="shift ctrl h" />
+    </action>
+    <action id="DuplicatesForm.SendToRight">
+        <keyboard-shortcut first-keystroke="shift ctrl l" />
     </action>
     <action id="EditorDown">
         <keyboard-shortcut first-keystroke="down" />
@@ -25,9 +32,14 @@
         <keyboard-shortcut first-keystroke="up" />
         <keyboard-shortcut first-keystroke="ctrl k" />
     </action>
+    <action id="FindPrevious">
+        <keyboard-shortcut first-keystroke="shift f3" />
+    </action>
     <action id="GotoBookmark0" />
     <action id="GotoBookmark8" />
     <action id="GotoBookmark9" />
+    <action id="MethodHierarchy" />
+    <action id="MethodHierarchy.BaseOnThisMethod" />
     <action id="ResizeToolWindowDown">
         <keyboard-shortcut first-keystroke="shift ctrl alt down" />
         <keyboard-shortcut first-keystroke="shift ctrl alt j" />
@@ -54,6 +66,15 @@
     </action>
     <action id="RunCoverage">
         <keyboard-shortcut first-keystroke="ctrl 8" />
+    </action>
+    <action id="TextEditorWithPreview.Layout.EditorAndPreview">
+        <keyboard-shortcut first-keystroke="ctrl 2" />
+    </action>
+    <action id="TextEditorWithPreview.Layout.EditorOnly">
+        <keyboard-shortcut first-keystroke="ctrl 1" />
+    </action>
+    <action id="TextEditorWithPreview.Layout.PreviewOnly">
+        <keyboard-shortcut first-keystroke="ctrl 3" />
     </action>
     <action id="ToggleBookmark0" />
     <action id="ToggleBookmark8" />
