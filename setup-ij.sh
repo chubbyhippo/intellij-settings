@@ -23,6 +23,8 @@ do
     curl -k https://raw.githubusercontent.com/chubbyhippo/Intellij-settings/main/config/options/editor.xml -o "$config_path/options/editor.xml"
     mkdir -p "$config_path/options/mac"
     curl -k https://raw.githubusercontent.com/chubbyhippo/Intellij-settings/main/config/options/mac/keymap.xml -o "$config_path/options/mac/keymap.xml"
+    mkdir -p "$config_path/options/windows"
+    curl -k https://raw.githubusercontent.com/chubbyhippo/Intellij-settings/main/config/options/windows/keymap.xml -o "$config_path/options/windows/keymap.xml"
 
     # install templates
     mkdir -p "$config_path/templates"
