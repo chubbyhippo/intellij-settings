@@ -7,6 +7,7 @@ if uname | grep -q "^MINGW"; then
 fi
 
 $cmd installPlugins \
+com.intellij.ml.llm \
 "Builder Generator" \
 "Lombook Plugin" \
 "String Manipulation" \
