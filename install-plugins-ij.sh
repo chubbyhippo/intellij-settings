@@ -13,6 +13,7 @@ com.intellij.ml.llm \
 "String Manipulation" \
 IdeaVIM \
 StringToolsPlugin \
+izhangzhihao.rainbow.brackets.lite \
 com.andrey4623.rainbowcsv \
 com.fwdekker.randomness \
 com.github.camork.fileExpander \
