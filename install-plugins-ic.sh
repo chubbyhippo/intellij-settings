@@ -13,6 +13,7 @@ $cmd installPlugins \
 IdeaVIM \
 StringToolsPlugin \
 com.fwdekker.randomness \
+izhangzhihao.rainbow.brackets.lite \
 com.github.camork.fileExpander \
 com.mituuz.fuzzier \
 de.endrullis.idea.postfixtemplates \
