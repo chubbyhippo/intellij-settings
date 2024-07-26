@@ -21,6 +21,7 @@ eu.theblob42.idea.whichkey \
 krasa.CpuUsageIndicator \
 me.bechberger.jfrplugin \
 mobi.hsz.idea.gitignore \
+indent-rainbow.indent-rainbow \
 nl.bryanderidder.regexrenamefiles \
 org.jetbrains.jumpToLine \
 org.sonarlint.idea \
