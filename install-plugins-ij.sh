@@ -18,6 +18,7 @@ com.andrey4623.rainbowcsv \
 com.fwdekker.randomness \
 com.github.camork.fileExpander \
 com.intellij.kubernetes \
+indent-rainbow.indent-rainbow \
 com.intellij.plugin.adernov.powershell \
 com.mituuz.fuzzier \
 de.endrullis.idea.postfixtemplates \
