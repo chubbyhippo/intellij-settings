@@ -19,10 +19,8 @@ de.endrullis.idea.postfixtemplates \
 eu.theblob42.idea.whichkey \
 indent-rainbow.indent-rainbow \
 izhangzhihao.rainbow.brackets.lite \
-krasa.CpuUsageIndicator \
 me.bechberger.jfrplugin \
 mobi.hsz.idea.gitignore \
 nl.bryanderidder.regexrenamefiles \
 org.jetbrains.jumpToLine \
-org.sonarlint.idea \
-zielu.gittoolbox
+org.sonarlint.idea
