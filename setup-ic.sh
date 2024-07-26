@@ -18,6 +18,7 @@ do
     mkdir -p "$config_path/options"
     curl -k https://raw.githubusercontent.com/chubbyhippo/Intellij-settings/main/config/options/editor.xml -o "$config_path/options/editor.xml"
     curl -k https://raw.githubusercontent.com/chubbyhippo/Intellij-settings/main/config/options/project.default.xml -o "$config_path/options/project.default.xml"
+    curl -k https://raw.githubusercontent.com/chubbyhippo/Intellij-settings/main/config/options/projectView.xml -o "$config_path/options/projectView.xml"
     mkdir -p "$config_path/options/mac"
     curl -k https://raw.githubusercontent.com/chubbyhippo/Intellij-settings/main/config/options/mac/keymap.xml -o "$config_path/options/mac/keymap.xml"
     mkdir -p "$config_path/options/windows"
