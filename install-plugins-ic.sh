@@ -13,15 +13,15 @@ $cmd installPlugins \
 IdeaVIM \
 StringToolsPlugin \
 com.fwdekker.randomness \
-izhangzhihao.rainbow.brackets.lite \
 com.github.camork.fileExpander \
 com.mituuz.fuzzier \
 de.endrullis.idea.postfixtemplates \
 eu.theblob42.idea.whichkey \
+indent-rainbow.indent-rainbow \
+izhangzhihao.rainbow.brackets.lite \
 krasa.CpuUsageIndicator \
 me.bechberger.jfrplugin \
 mobi.hsz.idea.gitignore \
-indent-rainbow.indent-rainbow \
 nl.bryanderidder.regexrenamefiles \
 org.jetbrains.jumpToLine \
 org.sonarlint.idea \
