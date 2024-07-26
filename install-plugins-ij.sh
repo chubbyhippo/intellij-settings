@@ -7,22 +7,22 @@ if uname | grep -q "^MINGW"; then
 fi
 
 $cmd installPlugins \
-com.intellij.ml.llm \
 "Builder Generator" \
 "Lombook Plugin" \
 "String Manipulation" \
 IdeaVIM \
 StringToolsPlugin \
-izhangzhihao.rainbow.brackets.lite \
 com.andrey4623.rainbowcsv \
 com.fwdekker.randomness \
 com.github.camork.fileExpander \
 com.intellij.kubernetes \
-indent-rainbow.indent-rainbow \
+com.intellij.ml.llm \
 com.intellij.plugin.adernov.powershell \
 com.mituuz.fuzzier \
 de.endrullis.idea.postfixtemplates \
 eu.theblob42.idea.whichkey \
+indent-rainbow.indent-rainbow \
+izhangzhihao.rainbow.brackets.lite \
 me.bechberger.jfrplugin \
 mobi.hsz.idea.gitignore \
 nl.bryanderidder.regexrenamefiles \
