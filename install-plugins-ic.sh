@@ -12,6 +12,7 @@ $cmd installPlugins \
 "String Manipulation" \
 IdeaVIM \
 StringToolsPlugin \
+com.andrey4623.rainbowcsv \
 com.fwdekker.randomness \
 com.github.camork.fileExpander \
 com.mituuz.fuzzier \
