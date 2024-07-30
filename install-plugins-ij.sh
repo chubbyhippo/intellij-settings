@@ -15,6 +15,7 @@ StringToolsPlugin \
 com.andrey4623.rainbowcsv \
 com.fwdekker.randomness \
 com.github.camork.fileExpander \
+com.jetbrains.edu \
 com.intellij.kubernetes \
 com.intellij.ml.llm \
 com.intellij.plugin.adernov.powershell \
