@@ -13,6 +13,7 @@ curl -s https://raw.githubusercontent.com/chubbyhippo/Intellij-settings/main/set
 Builder Generator  
 CPU Usage Indicator  
 Custom Postfix Templates  
+Developer Tool Box  
 GitToolBox  
 IdeaVim  
 Indent Rainbow  
