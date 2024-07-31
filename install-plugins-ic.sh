@@ -17,6 +17,7 @@ com.fwdekker.randomness \
 com.github.camork.fileExpander \
 com.mituuz.fuzzier \
 de.endrullis.idea.postfixtemplates \
+dev.turingcomplete.intellijdevelopertoolsplugins \
 eu.theblob42.idea.whichkey \
 indent-rainbow.indent-rainbow \
 izhangzhihao.rainbow.brackets.lite \
