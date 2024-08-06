@@ -2,11 +2,11 @@
 ## Install settings 
 ### Intellij-Community
 ```
-curl -s https://raw.githubusercontent.com/chubbyhippo/Intellij-settings/main/setup-ic.sh | /usr/bin/env sh
+curl -s https://raw.githubusercontent.com/chubbyhippo/intellij-settings/main/setup-ic.sh | /usr/bin/env sh
 ```
 ### Intellij-Ultimate
 ```
-curl -s https://raw.githubusercontent.com/chubbyhippo/Intellij-settings/main/setup-ij.sh | /usr/bin/env sh
+curl -s https://raw.githubusercontent.com/chubbyhippo/intellij-settings/main/setup-ij.sh | /usr/bin/env sh
 ```
 
 ## Plugins
