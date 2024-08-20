@@ -22,6 +22,7 @@ Developer Tool Box
 GitToolBox  
 IdeaVim  
 Indent Rainbow  
+Error Prone Compiler  
 File Expander  
 Fuzzier  
 Java JFR Profiler  
