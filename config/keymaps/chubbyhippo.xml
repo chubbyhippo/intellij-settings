@@ -93,4 +93,5 @@
     <action id="ToggleBookmark7" />
     <action id="ToggleBookmark8" />
     <action id="ToggleBookmark9" />
+    <action id="TypeHierarchy" />
 </keymap>
