@@ -1,4 +1,8 @@
 <keymap version="1" name="chubbyhippo" parent="$default">
+    <action id="ActivateCommitToolWindow">
+        <keyboard-shortcut first-keystroke="alt 0" />
+        <keyboard-shortcut first-keystroke="ctrl alt 0" />
+    </action>
     <action id="ChangesView.ShelveSilently" />
     <action id="CheckinProject" />
     <action id="Coverage">
