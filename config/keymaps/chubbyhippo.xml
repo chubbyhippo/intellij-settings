@@ -100,4 +100,5 @@
     <action id="ToggleBookmark8" />
     <action id="ToggleBookmark9" />
     <action id="TypeHierarchy" />
+    <action id="Vcs.Push" />
 </keymap>
