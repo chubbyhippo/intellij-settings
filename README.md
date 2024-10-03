@@ -16,7 +16,7 @@ curl -s https://raw.githubusercontent.com/chubbyhippo/intellij-settings/main/set
 ## Remove all settings 
 ### Intellij
 ```
-curl -s https://raw.githubusercontent.com/chubbyhippo/intellij-settings/main/rm-intellij-settings.sh | /usr/bin/env sh
+curl -s https://raw.githubusercontent.com/chubbyhippo/intellij-settings/main/rm-ij-settings.sh | /usr/bin/env sh
 ```
 
 ## Plugins
