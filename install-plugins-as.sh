@@ -8,6 +8,5 @@ fi
 
 $cmd installPlugins \
 IdeaVIM \
-com.intellij.ml.llm \
 com.joshestein.ideavim-quickscope \
 eu.theblob42.idea.whichkey
