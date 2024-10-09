@@ -18,7 +18,7 @@ curl -s https://raw.githubusercontent.com/chubbyhippo/intellij-settings/main/set
 ```
 curl -s https://raw.githubusercontent.com/chubbyhippo/intellij-settings/main/rm-ij-settings.sh | /usr/bin/env sh
 ```
-### Android Studio
+### Android-Studio
 ```
 curl -s https://raw.githubusercontent.com/chubbyhippo/intellij-settings/main/rm-as-settings.sh | /usr/bin/env sh
 ```
