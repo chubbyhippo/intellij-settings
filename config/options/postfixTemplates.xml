@@ -4,5 +4,10 @@
             <conditions />
             <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThat($EXPR$)$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
         </template>
+        <template id="assertThatThrownBy@userDefined" key=".assertThatThrownBy" provider="builtin.java" language-level="1.3" topmost="false">
+            <conditions />
+            <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatThrownBy(() -&gt; $EXPR$)$END$" toReformat="true" toShortenFQNames="true" />
+        </template>
     </component>
 </application>
+
