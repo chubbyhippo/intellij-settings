@@ -8,21 +8,11 @@ curl -s https://raw.githubusercontent.com/chubbyhippo/intellij-settings/main/set
 ```
 curl -s https://raw.githubusercontent.com/chubbyhippo/intellij-settings/main/setup-ij.sh | /usr/bin/env sh
 ```
-### Android-Studio
-```
-curl -s https://raw.githubusercontent.com/chubbyhippo/intellij-settings/main/setup-as.sh | /usr/bin/env sh
-```
-
 ## Remove all settings 
 ### Intellij
 ```
 curl -s https://raw.githubusercontent.com/chubbyhippo/intellij-settings/main/rm-ij-settings.sh | /usr/bin/env sh
 ```
-### Android-Studio
-```
-curl -s https://raw.githubusercontent.com/chubbyhippo/intellij-settings/main/rm-as-settings.sh | /usr/bin/env sh
-```
-
 ## Plugins
 Builder Generator  
 CPU Usage Indicator  
