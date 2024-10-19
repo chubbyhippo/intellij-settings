@@ -108,5 +108,8 @@
     <action id="ToggleBookmark8" />
     <action id="ToggleBookmark9" />
     <action id="TypeHierarchy" />
+    <action id="Vcs.LLMCommitMessageAction">
+        <keyboard-shortcut first-keystroke="shift ctrl g" />
+    </action>
     <action id="Vcs.Push" />
 </keymap>
