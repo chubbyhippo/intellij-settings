@@ -11,7 +11,7 @@ curl -s https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/hea
 ## Remove all settings 
 ### Intellij
 ```
-curl -s https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/rm-ij-settings.sh | /usr/bin/env sh
+curl -s https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/rm-settings.sh | /usr/bin/env sh
 ```
 ## Plugins
 Builder Generator  
