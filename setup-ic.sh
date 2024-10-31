@@ -4,7 +4,7 @@
 for config_path in \
 "$HOME"/.config/JetBrains/IdeaIC* \
 "$HOME"/Library/Application\ Support/JetBrains/IdeaIC* \
-"$HOME"/AppData/Roaming/JetBrains/IdeaIC* \
+"$HOME"/AppData/Roaming/JetBrains/IdeaIC*
 
 do
   echo "$config_path"
