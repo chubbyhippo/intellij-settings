@@ -1,24 +1,30 @@
 <application>
     <component name="PostfixTemplates">
+        <template id="stream@userDefined" key=".stream" provider="builtin.java" language-level="1.3" topmost="false">
+            <conditions>
+                <condition id="fqn" fqn="java.lang.Iterable" />
+            </conditions>
+            <template name="fakeKey" value="java.util.stream.StreamSupport.stream($EXPR$.spliterator(), false)$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+        </template>
         <template id="assertThatNoException@userDefined" key=".assertThatNoException" provider="builtin.java" language-level="1.3" topmost="false">
             <conditions />
-            <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatNoException().isThrownBy(() -&gt; $EXPR$);$END$&#10;" toReformat="true" toShortenFQNames="true" />
+            <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatNoException().isThrownBy(() -&gt; $EXPR$);$END$&#10;" description="" toReformat="true" toShortenFQNames="true" />
         </template>
         <template id="when@userDefined" key=".when" provider="builtin.java" language-level="1.3" topmost="false">
             <conditions />
-            <template name="fakeKey" value="org.mockito.Mockito.when($EXPR$)$END$" toReformat="true" toShortenFQNames="true" />
+            <template name="fakeKey" value="org.mockito.Mockito.when($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
         </template>
         <template id="assertThat@userDefined" key=".assertThat" provider="builtin.java" language-level="1.3" topmost="false">
             <conditions />
-            <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThat($EXPR$)$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
-        </template>
-        <template id="assertThatThrownBy@userDefined" key=".assertThatThrownBy" provider="builtin.java" language-level="1.3" topmost="false">
-            <conditions />
-            <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatThrownBy(() -&gt; $EXPR$)$END$" toReformat="true" toShortenFQNames="true" />
+            <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThat($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
         </template>
         <template id="doNothing@userDefined" key=".doNothing" provider="builtin.java" language-level="1.3" topmost="false">
             <conditions />
-            <template name="fakeKey" value="org.mockito.Mockito.doNothing().when($EXPR$)$END$" toReformat="true" toShortenFQNames="true" />
+            <template name="fakeKey" value="org.mockito.Mockito.doNothing().when($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
+        </template>
+        <template id="assertThatThrownBy@userDefined" key=".assertThatThrownBy" provider="builtin.java" language-level="1.3" topmost="false">
+            <conditions />
+            <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatThrownBy(() -&gt; $EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
         </template>
     </component>
 </application>
