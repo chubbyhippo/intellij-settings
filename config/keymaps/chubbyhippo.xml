@@ -1,115 +1,115 @@
 <keymap version="1" name="chubbyhippo" parent="$default">
-    <action id="ActivateCommitToolWindow">
-        <keyboard-shortcut first-keystroke="alt 0" />
-        <keyboard-shortcut first-keystroke="ctrl alt 0" />
-    </action>
-    <action id="ActivateProjectToolWindow">
-        <keyboard-shortcut first-keystroke="alt 1" />
-        <keyboard-shortcut first-keystroke="ctrl alt 1" />
-    </action>
-    <action id="ChangesView.ShelveSilently" />
-    <action id="CheckinProject" />
-    <action id="Coverage">
-        <keyboard-shortcut first-keystroke="shift ctrl 8" />
-    </action>
-    <action id="Debug">
-        <keyboard-shortcut first-keystroke="shift f9" />
-        <keyboard-shortcut first-keystroke="shift ctrl 9" />
-    </action>
-    <action id="DebugClass">
-        <keyboard-shortcut first-keystroke="ctrl 9" />
-    </action>
-    <action id="DuplicatesForm.SendToLeft">
-        <keyboard-shortcut first-keystroke="shift ctrl h" />
-    </action>
-    <action id="DuplicatesForm.SendToRight">
-        <keyboard-shortcut first-keystroke="shift ctrl l" />
-    </action>
-    <action id="EditorDown">
-        <keyboard-shortcut first-keystroke="down" />
-        <keyboard-shortcut first-keystroke="ctrl j" />
-    </action>
-    <action id="EditorLeft">
-        <keyboard-shortcut first-keystroke="left" />
-        <keyboard-shortcut first-keystroke="ctrl h" />
-    </action>
-    <action id="EditorRight">
-        <keyboard-shortcut first-keystroke="right" />
-        <keyboard-shortcut first-keystroke="ctrl l" />
-    </action>
-    <action id="EditorUp">
-        <keyboard-shortcut first-keystroke="up" />
-        <keyboard-shortcut first-keystroke="ctrl k" />
-    </action>
-    <action id="ExpressionTypeInfo" />
-    <action id="FindPrevious">
-        <keyboard-shortcut first-keystroke="shift f3" />
-    </action>
-    <action id="GotoBookmark0" />
-    <action id="GotoBookmark1" />
-    <action id="GotoBookmark2" />
-    <action id="GotoBookmark3" />
-    <action id="GotoBookmark4" />
-    <action id="GotoBookmark5" />
-    <action id="GotoBookmark6" />
-    <action id="GotoBookmark7" />
-    <action id="GotoBookmark8" />
-    <action id="GotoBookmark9" />
-    <action id="MethodHierarchy" />
-    <action id="MethodHierarchy.BaseOnThisMethod" />
-    <action id="ResizeToolWindowDown">
-        <keyboard-shortcut first-keystroke="shift ctrl alt down" />
-        <keyboard-shortcut first-keystroke="shift ctrl alt j" />
-    </action>
-    <action id="ResizeToolWindowLeft">
-        <keyboard-shortcut first-keystroke="shift ctrl alt left" />
-        <keyboard-shortcut first-keystroke="shift ctrl alt h" />
-    </action>
-    <action id="ResizeToolWindowRight">
-        <keyboard-shortcut first-keystroke="shift ctrl alt right" />
-        <keyboard-shortcut first-keystroke="shift ctrl alt l" />
-    </action>
-    <action id="ResizeToolWindowUp">
-        <keyboard-shortcut first-keystroke="shift ctrl alt up" />
-        <keyboard-shortcut first-keystroke="shift ctrl alt k" />
-    </action>
-    <action id="Run">
-        <keyboard-shortcut first-keystroke="shift f10" />
-        <keyboard-shortcut first-keystroke="shift ctrl 0" />
-    </action>
-    <action id="RunClass">
-        <keyboard-shortcut first-keystroke="shift ctrl f10" />
-        <keyboard-shortcut first-keystroke="ctrl 0" />
-    </action>
-    <action id="RunCoverage">
-        <keyboard-shortcut first-keystroke="ctrl 8" />
-    </action>
-    <action id="ShowPopupMenu">
-        <keyboard-shortcut first-keystroke="context_menu" />
-        <keyboard-shortcut first-keystroke="shift ctrl p" />
-    </action>
-    <action id="TextEditorWithPreview.Layout.EditorAndPreview">
-        <keyboard-shortcut first-keystroke="shift ctrl 2" />
-    </action>
-    <action id="TextEditorWithPreview.Layout.EditorOnly">
-        <keyboard-shortcut first-keystroke="shift ctrl 1" />
-    </action>
-    <action id="TextEditorWithPreview.Layout.PreviewOnly">
-        <keyboard-shortcut first-keystroke="shift ctrl 3" />
-    </action>
-    <action id="ToggleBookmark0" />
-    <action id="ToggleBookmark1" />
-    <action id="ToggleBookmark2" />
-    <action id="ToggleBookmark3" />
-    <action id="ToggleBookmark4" />
-    <action id="ToggleBookmark5" />
-    <action id="ToggleBookmark6" />
-    <action id="ToggleBookmark7" />
-    <action id="ToggleBookmark8" />
-    <action id="ToggleBookmark9" />
-    <action id="TypeHierarchy" />
-    <action id="Vcs.LLMCommitMessageAction">
-        <keyboard-shortcut first-keystroke="shift ctrl g" />
-    </action>
-    <action id="Vcs.Push" />
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="alt 0" />
+    <keyboard-shortcut first-keystroke="ctrl alt 0" />
+  </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1" />
+    <keyboard-shortcut first-keystroke="ctrl alt 1" />
+  </action>
+  <action id="ChangesView.ShelveSilently" />
+  <action id="CheckinProject" />
+  <action id="Coverage">
+    <keyboard-shortcut first-keystroke="shift ctrl 8" />
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift f9" />
+    <keyboard-shortcut first-keystroke="shift ctrl 9" />
+  </action>
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="ctrl 9" />
+  </action>
+  <action id="DuplicatesForm.SendToLeft">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+  </action>
+  <action id="DuplicatesForm.SendToRight">
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
+  </action>
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
+  <action id="EditorLeft">
+    <keyboard-shortcut first-keystroke="left" />
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="right" />
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
+  <action id="ExpressionTypeInfo" />
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift f3" />
+  </action>
+  <action id="GotoBookmark0" />
+  <action id="GotoBookmark1" />
+  <action id="GotoBookmark2" />
+  <action id="GotoBookmark3" />
+  <action id="GotoBookmark4" />
+  <action id="GotoBookmark5" />
+  <action id="GotoBookmark6" />
+  <action id="GotoBookmark7" />
+  <action id="GotoBookmark8" />
+  <action id="GotoBookmark9" />
+  <action id="MethodHierarchy" />
+  <action id="MethodHierarchy.BaseOnThisMethod" />
+  <action id="ResizeToolWindowDown">
+    <keyboard-shortcut first-keystroke="shift ctrl alt down" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt j" />
+  </action>
+  <action id="ResizeToolWindowLeft">
+    <keyboard-shortcut first-keystroke="shift ctrl alt left" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt h" />
+  </action>
+  <action id="ResizeToolWindowRight">
+    <keyboard-shortcut first-keystroke="shift ctrl alt right" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt l" />
+  </action>
+  <action id="ResizeToolWindowUp">
+    <keyboard-shortcut first-keystroke="shift ctrl alt up" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt k" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="shift ctrl 0" />
+  </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+    <keyboard-shortcut first-keystroke="ctrl 0" />
+  </action>
+  <action id="RunCoverage">
+    <keyboard-shortcut first-keystroke="ctrl 8" />
+  </action>
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="context_menu" />
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
+  <action id="TextEditorWithPreview.Layout.EditorAndPreview">
+    <keyboard-shortcut first-keystroke="shift ctrl 2" />
+  </action>
+  <action id="TextEditorWithPreview.Layout.EditorOnly">
+    <keyboard-shortcut first-keystroke="shift ctrl 1" />
+  </action>
+  <action id="TextEditorWithPreview.Layout.PreviewOnly">
+    <keyboard-shortcut first-keystroke="shift ctrl 3" />
+  </action>
+  <action id="ToggleBookmark0" />
+  <action id="ToggleBookmark1" />
+  <action id="ToggleBookmark2" />
+  <action id="ToggleBookmark3" />
+  <action id="ToggleBookmark4" />
+  <action id="ToggleBookmark5" />
+  <action id="ToggleBookmark6" />
+  <action id="ToggleBookmark7" />
+  <action id="ToggleBookmark8" />
+  <action id="ToggleBookmark9" />
+  <action id="TypeHierarchy" />
+  <action id="Vcs.LLMCommitMessageAction">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
+  <action id="Vcs.Push" />
 </keymap>
