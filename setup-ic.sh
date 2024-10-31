@@ -14,7 +14,7 @@ do
     mkdir -p "$config_path/keymaps"
     curl -k https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/config/keymaps/chubbyhippo.xml -o "$config_path/keymaps/chubbyhippo.xml"
 
-    # install settings
+    # install options
     mkdir -p "$config_path/options"
     curl -k https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/config/options/editor.xml -o "$config_path/options/editor.xml"
     curl -k https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/config/options/postfixTemplates.xml -o "$config_path/options/postfixTemplates.xml"
