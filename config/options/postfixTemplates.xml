@@ -6,6 +6,12 @@
       </conditions>
       <template name="fakeKey" value="java.util.stream.StreamSupport.stream($EXPR$.spliterator(), false)$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
+    <template id="stream@userDefined2" key=".stream" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.util.Iterator" />
+      </conditions>
+      <template name="fakeKey" value="java.util.stream.StreamSupport.stream(java.util.Spliterators.spliteratorUnknownSize($EXPR$, Spliterator.ORDERED | Spliterator.NONNULL), false)$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+    </template>
     <template id="when@userDefined" key=".when" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
       <template name="fakeKey" value="org.mockito.Mockito.when($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
@@ -26,13 +32,7 @@
       <conditions />
       <template name="fakeKey" value="org.mockito.Mockito.doNothing().when($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
-    <template id="stream@userDefined2" key=".stream" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions>
-        <condition id="fqn" fqn="java.util.Iterator" />
-      </conditions>
-      <template name="fakeKey" value="java.util.stream.StreamSupport.stream(java.util.Spliterators.spliteratorUnknownSize($EXPR$, Spliterator.ORDERED | Spliterator.NONNULL), false)$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
-    </template>
-    <template id="assertEqualTo@userDefined2" key=".assertEqualTo" provider="builtin.java" language-level="1.3" topmost="false">
+    <template id="assertEqualTo@userDefined" key=".assertEqualTo" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
       <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThat($EXPR$).isEqualTo($END$)" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
