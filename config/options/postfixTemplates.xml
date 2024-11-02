@@ -1,40 +1,46 @@
 <application>
   <component name="PostfixTemplates">
-    <template id="stream@userDefined" key=".stream" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions>
-        <condition id="fqn" fqn="java.lang.Iterable" />
-      </conditions>
-      <template name="fakeKey" value="java.util.stream.StreamSupport.stream($EXPR$.spliterator(), false)$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
-    </template>
-    <template id="stream@userDefined2" key=".stream" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions>
-        <condition id="fqn" fqn="java.util.Iterator" />
-      </conditions>
-      <template name="fakeKey" value="java.util.stream.StreamSupport.stream(java.util.Spliterators.spliteratorUnknownSize($EXPR$, Spliterator.ORDERED | Spliterator.NONNULL), false)$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
-    </template>
-    <template id="when@userDefined" key=".when" provider="builtin.java" language-level="1.3" topmost="false">
+    <template id="assertEqualTo@userDefined" key=".assertEqualTo" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
-      <template name="fakeKey" value="org.mockito.Mockito.when($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="assertThatNoException@userDefined" key=".assertThatNoException" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions />
-      <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatNoException().isThrownBy(() -&gt; $EXPR$);$END$&#10;" description="" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="assertThat@userDefined" key=".assertThat" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions />
-      <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThat($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+      <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThat($EXPR$).isEqualTo($END$)" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
     <template id="assertThatThrownBy@userDefined" key=".assertThatThrownBy" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
       <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatThrownBy(() -&gt; $EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="stream@userDefined2" key=".stream" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.util.Iterator" />
+      </conditions>
+      <template name="fakeKey" value="java.util.stream.StreamSupport.stream(java.util.Spliterators.spliteratorUnknownSize($EXPR$, Spliterator.ORDERED | Spliterator.NONNULL), false)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+    </template>
+    <template id="reversed@userDefined" key=".reversed" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.String" />
+      </conditions>
+      <template name="fakeKey" value="String.join(&quot;&quot;, $EXPR$.codePoints()&#10;                .mapToObj(Character::toString)&#10;                .toList()&#10;                .reversed())$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="assertThat@userDefined" key=".assertThat" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThat($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+    </template>
+    <template id="assertThatNoException@userDefined" key=".assertThatNoException" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatNoException().isThrownBy(() -&gt; $EXPR$);$END$&#10;" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="doNothing@userDefined" key=".doNothing" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
       <template name="fakeKey" value="org.mockito.Mockito.doNothing().when($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
-    <template id="assertEqualTo@userDefined" key=".assertEqualTo" provider="builtin.java" language-level="1.3" topmost="false">
+    <template id="stream@userDefined" key=".stream" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.Iterable" />
+      </conditions>
+      <template name="fakeKey" value="java.util.stream.StreamSupport.stream($EXPR$.spliterator(), false)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+    </template>
+    <template id="when@userDefined" key=".when" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
-      <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThat($EXPR$).isEqualTo($END$)" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+      <template name="fakeKey" value="org.mockito.Mockito.when($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
   </component>
 </application>
