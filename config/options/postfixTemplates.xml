@@ -66,17 +66,17 @@
       <conditions />
       <template name="fakeKey" value="org.mockito.Mockito.when($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="last@userDefined" key=".last" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="array" />
+      </conditions>
+      <template name="fakeKey" value="$EXPR$[$EXPR$.length -1]$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="toBigDecimal@userDefined2" key=".toBigDecimal" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="fqn" fqn="java.lang.Number" />
       </conditions>
       <template name="fakeKey" value="new java.math.BigDecimal($EXPR$)$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
-    </template>
-    <template id="first@userDefined" key=".first" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions>
-        <condition id="fqn" fqn="java.util.List" />
-      </conditions>
-      <template name="fakeKey" value="$EXPR$.get(0)$END$" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="toBigDecimal@userDefined3" key=".toBigDecimal" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
@@ -87,6 +87,12 @@
     <template id="assertEqualTo@userDefined" key=".assertEqualTo" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
       <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThat($EXPR$).isEqualTo($END$)" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+    </template>
+    <template id="last@userDefined2" key=".last" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.util.List" />
+      </conditions>
+      <template name="fakeKey" value="$EXPR$.get($EXPR$.size() - 1)$END$" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="reversed@userDefined2" key=".reversed" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
@@ -136,17 +142,17 @@
       </conditions>
       <template name="fakeKey" value="Short.parseShort($EXPR$)$END$" toReformat="true" toShortenFQNames="true" />
     </template>
-    <template id="toInt@userDefined2" key=".toInt" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions>
-        <condition id="fqn" fqn="java.lang.Number" />
-      </conditions>
-      <template name="fakeKey" value="$EXPR$.intValue()$END$" toReformat="true" toShortenFQNames="true" />
-    </template>
     <template id="first@userDefined" key=".first" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="array" />
       </conditions>
       <template name="fakeKey" value="$EXPR$[0]$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="toInt@userDefined2" key=".toInt" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.Number" />
+      </conditions>
+      <template name="fakeKey" value="$EXPR$.intValue()$END$" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="assertThatNoException@userDefined" key=".assertThatNoException" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
