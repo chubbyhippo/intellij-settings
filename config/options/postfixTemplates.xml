@@ -72,6 +72,12 @@
       </conditions>
       <template name="fakeKey" value="new java.math.BigDecimal($EXPR$)$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
+    <template id="first@userDefined" key=".first" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.util.List" />
+      </conditions>
+      <template name="fakeKey" value="$EXPR$.get(0)$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="toBigDecimal@userDefined3" key=".toBigDecimal" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="number" />
@@ -135,6 +141,12 @@
         <condition id="fqn" fqn="java.lang.Number" />
       </conditions>
       <template name="fakeKey" value="$EXPR$.intValue()$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="first@userDefined" key=".first" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="array" />
+      </conditions>
+      <template name="fakeKey" value="$EXPR$[0]$END$" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="assertThatNoException@userDefined" key=".assertThatNoException" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
