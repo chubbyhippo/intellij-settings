@@ -82,6 +82,12 @@
       <conditions />
       <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThat($EXPR$).isEqualTo($END$)" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
+    <template id="reversed@userDefined2" key=".reversed" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="array" />
+      </conditions>
+      <template name="fakeKey" value="java.util.stream.IntStream.rangeClosed(1, $EXPR$.length)&#10;                .map(i -&gt; $EXPR$[$EXPR$.length - i])&#10;                .toArray()$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="toLong@userDefined" key=".toLong" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="number" />
@@ -127,12 +133,6 @@
     <template id="assertThatNoException@userDefined" key=".assertThatNoException" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
       <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatNoException().isThrownBy(() -&gt; $EXPR$);$END$&#10;" description="" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="reversed@userDefined2" key=".reversed" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions>
-        <condition id="array" />
-      </conditions>
-      <template name="fakeKey" value="IntStream.rangeClosed(1, $EXPR$.length)&#10;                .map(i -&gt; $EXPR$[$EXPR$.length - i])&#10;                .toArray()$END$" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="toBoolean@userDefined" key=".toBoolean" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
