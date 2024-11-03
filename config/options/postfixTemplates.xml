@@ -22,6 +22,12 @@
       </conditions>
       <template name="fakeKey" value="$EXPR$.shortValue()$END$" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="toLong@userDefined" key=".toLong" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="number" />
+      </conditions>
+      <template name="fakeKey" value="((long) ($EXPR$))$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="stream@userDefined" key=".stream" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="fqn" fqn="java.lang.Iterable" />
@@ -100,11 +106,23 @@
       <conditions />
       <template name="fakeKey" value="org.mockito.Mockito.when($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="toLong@userDefined" key=".toLong" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.String" />
+      </conditions>
+      <template name="fakeKey" value="Long.parseLong($EXPR$)$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="toInt@userDefined" key=".toInt" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="fqn" fqn="java.lang.String" />
       </conditions>
       <template name="fakeKey" value="Integer.parseInt($EXPR$)$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="toLong@userDefined" key=".toLong" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.Number" />
+      </conditions>
+      <template name="fakeKey" value="$EXPR$.longValue()$END$" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="assertEqualTo@userDefined" key=".assertEqualTo" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
