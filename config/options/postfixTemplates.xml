@@ -6,6 +6,12 @@
       </conditions>
       <template name="fakeKey" value="java.util.stream.StreamSupport.stream(java.util.Spliterators.spliteratorUnknownSize($EXPR$, Spliterator.ORDERED | Spliterator.NONNULL), false)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
+    <template id="toChar@userDefined" key=".toChar" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="number" />
+      </conditions>
+      <template name="fakeKey" value="((char) ($EXPR$))$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="doNothing@userDefined" key=".doNothing" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
       <template name="fakeKey" value="org.mockito.Mockito.doNothing().when($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
