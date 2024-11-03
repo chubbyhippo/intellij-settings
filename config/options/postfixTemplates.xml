@@ -6,6 +6,34 @@
       </conditions>
       <template name="fakeKey" value="java.util.stream.StreamSupport.stream(java.util.Spliterators.spliteratorUnknownSize($EXPR$, Spliterator.ORDERED | Spliterator.NONNULL), false)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
+    <template id="doNothing@userDefined" key=".doNothing" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="org.mockito.Mockito.doNothing().when($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="stream@userDefined" key=".stream" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.Iterable" />
+      </conditions>
+      <template name="fakeKey" value="java.util.stream.StreamSupport.stream($EXPR$.spliterator(), false)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+    </template>
+    <template id="toByte@userDefined2" key=".toByte" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.Number" />
+      </conditions>
+      <template name="fakeKey" value="$EXPR$.byteValue()$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="reversed@userDefined" key=".reversed" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.String" />
+      </conditions>
+      <template name="fakeKey" value="new StringBuilder($EXPR$).reverse().toString()$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="toByte@userDefined" key=".toByte" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.String" />
+      </conditions>
+      <template name="fakeKey" value="Byte.parseByte($EXPR$)$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="assertThat@userDefined" key=".assertThat" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
       <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThat($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
@@ -14,25 +42,11 @@
       <conditions />
       <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatNoException().isThrownBy(() -&gt; $EXPR$);$END$&#10;" description="" toReformat="true" toShortenFQNames="true" />
     </template>
-    <template id="doNothing@userDefined" key=".doNothing" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions />
-      <template name="fakeKey" value="org.mockito.Mockito.doNothing().when($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
-    </template>
     <template id="reversed@userDefined2" key=".reversed" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="array" />
       </conditions>
       <template name="fakeKey" value="IntStream.rangeClosed(1, $EXPR$.length)&#10;                .map(i -&gt; $EXPR$[$EXPR$.length - i])&#10;                .toArray()$END$" description="" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="stream@userDefined" key=".stream" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions>
-        <condition id="fqn" fqn="java.lang.Iterable" />
-      </conditions>
-      <template name="fakeKey" value="java.util.stream.StreamSupport.stream($EXPR$.spliterator(), false)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
-    </template>
-    <template id="when@userDefined" key=".when" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions />
-      <template name="fakeKey" value="org.mockito.Mockito.when($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="toBoolean@userDefined" key=".toBoolean" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
@@ -40,11 +54,9 @@
       </conditions>
       <template name="fakeKey" value="Boolean.parseBoolean($EXPR$)$END$" toReformat="true" toShortenFQNames="true" />
     </template>
-    <template id="reversed@userDefined" key=".reversed" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions>
-        <condition id="fqn" fqn="java.lang.String" />
-      </conditions>
-      <template name="fakeKey" value="new StringBuilder($EXPR$).reverse().toString()$END$" toReformat="true" toShortenFQNames="true" />
+    <template id="when@userDefined" key=".when" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="org.mockito.Mockito.when($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="assertEqualTo@userDefined" key=".assertEqualTo" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
