@@ -154,6 +154,13 @@
       </conditions>
       <template name="fakeKey" value="Short.parseShort($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="assertTrue@userDefined" key=".assertTrue" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="boolean" />
+        <condition id="fqn" fqn="java.lang.Boolean" />
+      </conditions>
+      <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThat($EXPR$).isTrue()$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+    </template>
     <template id="last@userDefined" key=".last" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="array" />
