@@ -145,6 +145,12 @@
       </conditions>
       <template name="fakeKey" value="java.util.Arrays.toString($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="reversed@userDefined2" key=".reversed" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="array" />
+      </conditions>
+      <template name="fakeKey" value="java.util.stream.IntStream.rangeClosed(1, $EXPR$.length)&#10;                .mapToObj(i -&gt; $EXPR$[$EXPR$.length - i])&#10;                .toArray($END$[]::new)" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="toBigDecimal@userDefined3" key=".toBigDecimal" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="number" />
@@ -194,12 +200,6 @@
         <condition id="fqn" fqn="java.lang.String" />
       </conditions>
       <template name="fakeKey" value="new StringBuilder($EXPR$).reverse().toString()$END$" description="" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="reversed@userDefined2" key=".reversed" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions>
-        <condition id="array" />
-      </conditions>
-      <template name="fakeKey" value="java.util.stream.IntStream.rangeClosed(1, $EXPR$.length)&#10;                .map(i -&gt; $EXPR$[$EXPR$.length - i])&#10;                .toArray()$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="toByte@userDefined3" key=".toByte" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
