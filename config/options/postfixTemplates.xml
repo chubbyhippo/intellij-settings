@@ -1,17 +1,17 @@
 <application>
   <component name="PostfixTemplates">
-    <template id="toBigDecimal@userDefined2" key=".toBigDecimal" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions>
-        <condition id="fqn" fqn="java.lang.Number" />
-      </conditions>
-      <template name="fakeKey" value="new java.math.BigDecimal($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
-    </template>
     <template id="assertFalse@userDefined" key=".assertFalse" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="boolean" />
         <condition id="fqn" fqn="java.lang.Boolean" />
       </conditions>
       <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThat($EXPR$).isFalse()$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+    </template>
+    <template id="toBigDecimal@userDefined2" key=".toBigDecimal" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.Number" />
+      </conditions>
+      <template name="fakeKey" value="new java.math.BigDecimal($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
     <template id="toChar@userDefined" key=".toChar" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
@@ -110,6 +110,14 @@
         <condition id="array" />
       </conditions>
       <template name="fakeKey" value="$EXPR$[0]$END$" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="assertEmpty@userDefined" key=".assertEmpty" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="array" />
+        <condition id="fqn" fqn="java.util.Map" />
+        <condition id="fqn" fqn="java.lang.Iterable" />
+      </conditions>
+      <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThat($EXPR$).isEmpty()$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
     <template id="toBigDecimal@userDefined3" key=".toBigDecimal" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
