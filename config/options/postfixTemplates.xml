@@ -99,6 +99,14 @@
       <conditions />
       <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatThrownBy(() -&gt; $EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
+    <template id="assertNotEmpty@userDefined" key=".assertNotEmpty" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="array" />
+        <condition id="fqn" fqn="java.util.Map" />
+        <condition id="fqn" fqn="java.lang.Iterable" />
+      </conditions>
+      <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThat($EXPR$).isNotEmpty()$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+    </template>
     <template id="toShort@userDefined" key=".toShort" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="fqn" fqn="java.lang.String" />
