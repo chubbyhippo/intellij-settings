@@ -260,6 +260,12 @@
       </conditions>
       <template name="fakeKey" value="$EXPR$.byteValue()$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="format@userDefined4" key=".format" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.time.LocalTime" />
+      </conditions>
+      <template name="fakeKey" value="java.time.format.DateTimeFormatter formatter = java.time.format.DateTimeFormatter.ofPattern(&quot;HH:mm:ss hh:mm a$END$&quot;);&#10;String formattedTime = $EXPR$.format(formatter);&#10;" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="catchException@userDefined" key=".catchException" provider="builtin.java" language-level="1.3" topmost="true">
       <conditions />
       <template name="fakeKey" value="org.assertj.core.api.Assertions.catchException(() -&gt; $EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
