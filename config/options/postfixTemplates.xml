@@ -273,6 +273,12 @@
       </conditions>
       <template name="fakeKey" value="((double) ($EXPR$))$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="toDate@userDefined3" key=".toDate" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.time.LocalDateTime" />
+      </conditions>
+      <template name="fakeKey" value="java.util.Date.from($EXPR$.atZone(java.time.ZoneId.systemDefault()).toInstant())$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="assertFalse@userDefined" key=".assertFalse" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="boolean" />
