@@ -146,6 +146,12 @@
       </conditions>
       <template name="fakeKey" value="((long) ($EXPR$))$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="toLocalDateTime@userDefined" key=".toLocalDateTime" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.util.Date" />
+      </conditions>
+      <template name="fakeKey" value="$EXPR$.toInstant().atZone(ZoneId.systemDefault()).toLocalDateTime()$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+    </template>
     <template id="assertThatNoException@userDefined" key=".assertThatNoException" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
       <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatNoException().isThrownBy(() -&gt; $EXPR$);$END$&#10;" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
