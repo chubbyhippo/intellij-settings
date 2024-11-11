@@ -135,6 +135,12 @@
       </conditions>
       <template name="fakeKey" value="((double) ($EXPR$))$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="toJSONObject@userDefined" key=".toJSONObject" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.String" />
+      </conditions>
+      <template name="fakeKey" value="new JSONObject($EXPR$)$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="assertBlank@userDefined" key=".assertBlank" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="fqn" fqn="java.lang.String" />
