@@ -47,12 +47,6 @@
       </conditions>
       <template name="fakeKey" value="((byte) ($EXPR$))$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
-    <template id="format@userDefined3" key=".format" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions>
-        <condition id="fqn" fqn="java.time.LocalDateTime" />
-      </conditions>
-      <template name="fakeKey" value="java.time.format.DateTimeFormatter formatter = java.time.format.DateTimeFormatter.ofPattern(&quot;yyyy-MM-dd HH:mm:ss hh:mm a$END$&quot;);&#10;String formattedDateTime = $EXPR$.format(formatter);&#10;" description="" toReformat="true" toShortenFQNames="true" />
-    </template>
     <template id="toInt@userDefined2" key=".toInt" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="fqn" fqn="java.lang.Number" />
@@ -168,6 +162,12 @@
         <condition id="array" />
       </conditions>
       <template name="fakeKey" value="java.util.Arrays.toString($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="format@userDefined3" key=".format" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.time.LocalDateTime" />
+      </conditions>
+      <template name="fakeKey" value="java.time.format.DateTimeFormatter.ofPattern(&quot;yyyy-MM-dd HH:mm:ss hh:mm a&quot;).format($EXPR$)$END$&#10;" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="toHttpPOST@userDefined" key=".toHttpPOST" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
