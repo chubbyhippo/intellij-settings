@@ -67,7 +67,7 @@
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="readFileLineByLine" value="java.nio.file.Path filePath = java.nio.file.Paths.get(&quot;$FILE_PATH$&quot;);&#10;&#10;try (java.util.stream.Stream&lt;String&gt; lines = java.nio.file.Files.lines(filePath)) {&#10;    lines.forEach(System.out::println);&#10;&#10;} catch (java.io.IOException e) {&#10;    throw new RuntimeException(e);&#10;}" description="Read file line by line" toReformat="false" toShortenFQNames="true">
+  <template name="readFileLineByLine" value="java.nio.file.Path filePath = java.nio.file.Path.of(&quot;$FILE_PATH$&quot;);&#10;&#10;try (java.util.stream.Stream&lt;String&gt; lines = java.nio.file.Files.lines(filePath)) {&#10;    lines.forEach(System.out::println);&#10;&#10;} catch (java.io.IOException e) {&#10;    throw new RuntimeException(e);&#10;}" description="Read file line by line" toReformat="true" toShortenFQNames="true">
     <variable name="FILE_PATH" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
