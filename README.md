@@ -23,7 +23,6 @@ IdeaVim
 Indent Rainbow  
 Error Prone Compiler  
 File Expander  
-Fuzzier  
 Java JFR Profiler  
 Jump to Line  
 Key Promoter X  
