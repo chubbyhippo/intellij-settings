@@ -18,31 +18,7 @@
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="util" value="private $CLASS_NAME$() {&#10;    throw new java.lang.IllegalStateException(&quot;Utility class&quot;);&#10;}" description="Util class private constructor" toReformat="true" toShortenFQNames="true">
-    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
-    <context>
-      <option name="JAVA_DECLARATION" value="true" />
-    </context>
-  </template>
-  <template name="uc" value="private $CLASS_NAME$() {&#10;    throw new java.lang.IllegalStateException(&quot;Utility class&quot;);&#10;}" description="Util class private constructor" toReformat="true" toShortenFQNames="true">
-    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
-    <context>
-      <option name="JAVA_DECLARATION" value="true" />
-    </context>
-  </template>
-  <template name="uct" value="@org.junit.jupiter.api.Test&#10;@org.junit.jupiter.api.DisplayName(&quot;should throw illegal state exception when initialized&quot;)&#10;void shouldThrowIllegalStateExceptionWhenInitialized() {&#10;  var constructor = $CLASS_NAME$.class.getDeclaredConstructors()[0];&#10;    constructor.setAccessible(true);&#10;    try {&#10;        constructor.newInstance();&#10;    } catch (IllegalStateException | InstantiationException | Ille galAccessException |&#10;                 InvocationTargetException exception) {&#10;        assertThat(exception.getCause().getClass()).isEqualTo(IllegalStateException.class);&#10;        assertThat(exception.getCause().getMessage( )).isEqualTo(&quot;Utility class&quot;);&#10;    }&#10;}" description="Create a new JUnit test for utility class" toReformat="true" toShortenFQNames="true">
-    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
-    <context>
-      <option name="JAVA_DECLARATION" value="true" />
-    </context>
-  </template>
   <template name="utilTest" value="@org.junit.jupiter.api.Test&#10;@org.junit.jupiter.api.DisplayName(&quot;should throw illegal state exception when initialized&quot;)&#10;void shouldThrowIllegalStateExceptionWhenInitialized() {&#10;    var constructor = $CLASS_NAME$.class.getDeclaredConstructors()[0];&#10;    constructor.setAccessible(true);&#10;    try {&#10;        constructor.newInstance();&#10;    } catch (IllegalStateException | InstantiationException | IllegalAccessException |&#10;             java.lang.reflect.InvocationTargetException exception) {&#10;        org.assertj.core.api.Assertions.assertThat(exception.getCause().getClass()).isEqualTo(IllegalStateException.class);&#10;        org.assertj.core.api.Assertions.assertThat(exception.getCause().getMessage()).isEqualTo(&quot;Utility class&quot;);&#10;    }&#10;}&#10;" description="Create a new JUnit test for private constructor" toReformat="true" toShortenFQNames="true" useStaticImport="true">
-    <variable name="CLASS_NAME" expression="substringBefore(className(), &quot;Test&quot;)" defaultValue="" alwaysStopAt="false" />
-    <context>
-      <option name="JAVA_DECLARATION" value="true" />
-    </context>
-  </template>
-  <template name="ut" value="@org.junit.jupiter.api.Test&#10;@org.junit.jupiter.api.DisplayName(&quot;should throw illegal state exception when initialized&quot;)&#10;void shouldThrowIllegalStateExceptionWhenInitialized() {&#10;    var constructor = $CLASS_NAME$.class.getDeclaredConstructors()[0];&#10;    constructor.setAccessible(true);&#10;    try {&#10;        constructor.newInstance();&#10;    } catch (IllegalStateException | InstantiationException | IllegalAccessException |&#10;             java.lang.reflect.InvocationTargetException exception) {&#10;        org.assertj.core.api.Assertions.assertThat(exception.getCause().getClass()).isEqualTo(IllegalStateException.class);&#10;        org.assertj.core.api.Assertions.assertThat(exception.getCause().getMessage()).isEqualTo(&quot;Utility class&quot;);&#10;    }&#10;}&#10;" description="Create a new JUnit test for private constructor" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="CLASS_NAME" expression="substringBefore(className(), &quot;Test&quot;)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
