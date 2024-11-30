@@ -16,8 +16,6 @@ com.fwdekker.randomness \
 com.github.camork.fileExpander \
 dev.turingcomplete.intellijdevelopertoolsplugins \
 eu.theblob42.idea.whichkey \
-indent-rainbow.indent-rainbow \
-izhangzhihao.rainbow.brackets.lite \
 me.bechberger.jfrplugin \
 mobi.hsz.idea.gitignore \
 nl.bryanderidder.regexrenamefiles \
