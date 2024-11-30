@@ -9,5 +9,6 @@ fi
 $cmd installPlugins \
 IdeaVIM \
 com.intellij.ml.llm \
+com.github.camork.fileExpander \
 com.joshestein.ideavim-quickscope \
 eu.theblob42.idea.whichkey
