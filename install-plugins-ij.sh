@@ -1,6 +1,5 @@
 #!/usr/bin/env sh
 
-# plugins
 cmd=idea
 if uname | grep -q "^MINGW"; then
   cmd="$HOME"/AppData/Local/JetBrains/Toolbox/scripts/idea.cmd
