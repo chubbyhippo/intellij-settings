@@ -48,6 +48,12 @@
       </conditions>
       <template name="fakeKey" value="try (java.net.http.HttpClient httpClient = java.net.http.HttpClient.newBuilder()&#10;        .executor(java.util.concurrent.Executors.newVirtualThreadPerTaskExecutor())&#10;        .version(java.net.http.HttpClient.Version.HTTP_2)&#10;        .connectTimeout(java.time.Duration.ofSeconds(10))&#10;        .build()) {&#10;&#10;    java.net.http.HttpRequest request = java.net.http.HttpRequest.newBuilder()&#10;            .uri($EXPR$)&#10;            .timeout(java.time.Duration.ofSeconds(10))&#10;            .header(&quot;Accept&quot;, &quot;application/json&quot;)&#10;            .GET()&#10;            .build();&#10;&#10;    java.net.http.HttpResponse&lt;String&gt; response = httpClient.send(request, java.net.http.HttpResponse.BodyHandlers.ofString());&#10;    System.out.println(&quot;Response status code: &quot; + response.statusCode());&#10;    System.out.println(&quot;Response body: &quot; + response.body());&#10;&#10;} catch (java.io.IOException | InterruptedException e) {&#10;    e.printStackTrace();&#10;}&#10;$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="toPath@userDefined" key=".toPath" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.String" />
+      </conditions>
+      <template name="fakeKey" value="java.nio.file.Path.of($EXPR$)$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="format@userDefined2" key=".format" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="fqn" fqn="java.time.LocalDate" />
