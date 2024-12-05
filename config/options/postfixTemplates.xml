@@ -113,6 +113,12 @@
       </conditions>
       <template name="fakeKey" value="((short) ($EXPR$))$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="toScanner@userDefined" key=".toScanner" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.nio.file.Path" />
+      </conditions>
+      <template name="fakeKey" value="new java.util.Scanner($EXPR$)$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="last@userDefined" key=".last" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="array" />
