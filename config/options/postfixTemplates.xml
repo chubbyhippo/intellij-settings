@@ -20,6 +20,12 @@
       </conditions>
       <template name="fakeKey" value="new java.math.BigDecimal($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
+    <template id="ls@userDefined" key=".ls" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.nio.file.Path" />
+      </conditions>
+      <template name="fakeKey" value="java.nio.file.Files.list($EXPR$).forEach(System.out::println)$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="format@userDefined" key=".format" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="fqn" fqn="java.util.Date" />
