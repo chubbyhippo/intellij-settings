@@ -127,7 +127,7 @@
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="consoleReader" value="java.io.BufferedReader consoleReader = new java.io.BufferedReader(new java.io.InputStreamReader(System.in));&#10;String userInput;&#10;System.out.print(&quot;Enter a line of text: &quot;);&#10;while ((userInput = consoleReader.readLine()) != null) {&#10;    System.out.println(&quot;userInput = &quot; + userInput);&#10;}&#10;" description="Console reader" toReformat="false" toShortenFQNames="true">
+  <template name="consoleReaderBufferedReader" value="java.io.BufferedReader consoleReader = new java.io.BufferedReader(new java.io.InputStreamReader(System.in));&#10;String userInput;&#10;System.out.print(&quot;Enter a line of text: &quot;);&#10;while ((userInput = consoleReader.readLine()) != null) {&#10;    System.out.println(&quot;userInput = &quot; + userInput);&#10;}&#10;" description="Console reader using BufferedReader" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
