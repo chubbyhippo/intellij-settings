@@ -66,6 +66,12 @@
       <conditions />
       <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatThrownBy(() -&gt; $EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
+    <template id="toString@userDefined3" key=".toString" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="array" />
+      </conditions>
+      <template name="fakeKey" value="new String($EXPR$)$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="toShort@userDefined3" key=".toShort" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="number" />
@@ -107,17 +113,17 @@
       <conditions />
       <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatCode(() -&gt; $EXPR$).doesNotThrowAnyException()$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
-    <template id="toBoolean@userDefined" key=".toBoolean" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions>
-        <condition id="fqn" fqn="java.lang.String" />
-      </conditions>
-      <template name="fakeKey" value="Boolean.parseBoolean($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
-    </template>
     <template id="toString@userDefined" key=".toArrayString" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="array" />
       </conditions>
       <template name="fakeKey" value="java.util.Arrays.toString($EXPR$)$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="toBoolean@userDefined" key=".toBoolean" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.String" />
+      </conditions>
+      <template name="fakeKey" value="Boolean.parseBoolean($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="format@userDefined3" key=".format" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
