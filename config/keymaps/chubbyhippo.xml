@@ -88,6 +88,9 @@
     <keyboard-shortcut first-keystroke="context_menu" />
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
+  <action id="Terminal.OpenInTerminal">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
   <action id="TextEditorWithPreview.Layout.EditorAndPreview">
     <keyboard-shortcut first-keystroke="shift ctrl 2" />
   </action>
