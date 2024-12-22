@@ -302,6 +302,12 @@
       </conditions>
       <template name="fakeKey" value="$EXPR$[$EXPR$.length -1]$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="toBufferedReader@userDefined" key=".toBufferedReader" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.io.InputStreamReader" />
+      </conditions>
+      <template name="fakeKey" value="new BufferedReader($EXPR$)$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="when@userDefined" key=".when" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
       <template name="fakeKey" value="org.mockito.Mockito.when($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
