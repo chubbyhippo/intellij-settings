@@ -424,6 +424,12 @@
       </conditions>
       <template name="fakeKey" value="Boolean.parseBoolean($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="runCommand@userDefined" key=".runCommand" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.String" />
+      </conditions>
+      <template name="fakeKey" value="ProcessBuilder processBuilder = new ProcessBuilder();&#10;&#10;processBuilder.command($EXPR$.split(&quot; &quot;));&#10;&#10;Process process = processBuilder.start();&#10;&#10;java.io.BufferedReader reader = new java.io.BufferedReader(new java.io.InputStreamReader(process.getInputStream()));&#10;String line;&#10;while ((line = reader.readLine()) != null) {&#10;    System.out.println(line);&#10;}&#10;&#10;int exitCode = process.waitFor();&#10;System.out.println(&quot;\nExited with code: %d&quot; + exitCode);&#10;$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+    </template>
     <template id="toURI@userDefined" key=".toURI" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="fqn" fqn="java.lang.String" />
