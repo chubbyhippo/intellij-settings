@@ -264,6 +264,12 @@
       <conditions />
       <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatNoException().isThrownBy(() -&gt; $EXPR$);$END$&#10;" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
+    <template id="readLine@userDefined2" key=".readLine" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.io.InputStreamReader" />
+      </conditions>
+      <template name="fakeKey" value="BufferedReader reader = new BufferedReader($EXPR$);&#10;String line;&#10;while ((line = reader.readLine()) != null) {&#10;    System.out.println(line);&#10;}&#10;$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="assertNotNull@userDefined" key=".assertNotNull" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
       <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThat($EXPR$).isNotNull()$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
