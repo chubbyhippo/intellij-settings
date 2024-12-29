@@ -1,16 +1,16 @@
 # Intellij-IDEA
 ## Install settings 
 ### Intellij-Community
-```sh
+```shell
 curl -s https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/setup-ic.sh | /usr/bin/env sh
 ```
 ### Intellij-Ultimate
-```sh
+```shell
 curl -s https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/setup-ij.sh | /usr/bin/env sh
 ```
 ## Remove all settings 
 ### Intellij
-```sh
+```shell
 curl -s https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/rm-settings.sh | /usr/bin/env sh
 ```
 ## Plugins
