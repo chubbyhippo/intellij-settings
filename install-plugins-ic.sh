@@ -13,6 +13,7 @@ IdeaVIM \
 StringToolsPlugin \
 com.fwdekker.randomness \
 com.github.camork.fileExpander \
+com.julienphalip.ideavim.peekaboo \
 dev.turingcomplete.intellijdevelopertoolsplugins \
 eu.theblob42.idea.whichkey \
 me.bechberger.jfrplugin \
