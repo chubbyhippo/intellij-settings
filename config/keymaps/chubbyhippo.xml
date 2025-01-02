@@ -90,6 +90,7 @@
     <keyboard-shortcut first-keystroke="context_menu" />
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
+  <action id="ShowReformatFileDialog" />
   <action id="TableResult.SelectAllOccurrences" />
   <action id="Terminal.OpenInTerminal">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
