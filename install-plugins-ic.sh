@@ -14,6 +14,7 @@ StringToolsPlugin \
 com.fwdekker.randomness \
 com.github.camork.fileExpander \
 com.julienphalip.ideavim.peekaboo \
+dev.flikas.idea.spring.boot.assistant.plugin
 dev.turingcomplete.intellijdevelopertoolsplugins \
 eu.theblob42.idea.whichkey \
 me.bechberger.jfrplugin \
