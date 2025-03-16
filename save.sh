@@ -23,6 +23,7 @@ do
     cat "$config_path"/options/projectView.xml > ./config/options/projectView.xml
     cat "$config_path"/options/mac/keymap.xml > ./config/options/mac/keymap.xml
     cat "$config_path"/options/windows/keymap.xml > ./config/option/windows/keymap.xml
+    cat "$config_path"/options/ui.lnf.xml > ./config/options/ui.lnf.xml
 
     # save templates
     cat "$config_path"/templates/java.xml > ./config/templates/java.xml
