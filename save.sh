@@ -18,6 +18,7 @@ do
 
     # save options
     cat "$config_path"/options/editor.xml > ./config/options/editor.xml
+    cat "$config_path"/options/laf.xml > ./config/options/laf.xml
     cat "$config_path"/options/postfixTemplates.xml > ./config/options/postfixTemplates.xml
     cat "$config_path"/options/projectView.xml > ./config/options/projectView.xml
     cat "$config_path"/options/mac/keymap.xml > ./config/options/mac/keymap.xml
