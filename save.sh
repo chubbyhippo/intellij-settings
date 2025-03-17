@@ -17,6 +17,7 @@ do
     cat "$config_path"/keymaps/chubbyhippo.xml > ./config/keymaps/chubbyhippo.xml
 
     # save options
+    cat "$config_path"/options/colors.scheme.xml > ./config/options/colors.scheme.xml
     cat "$config_path"/options/editor.xml > ./config/options/editor.xml
     cat "$config_path"/options/laf.xml > ./config/options/laf.xml
     cat "$config_path"/options/postfixTemplates.xml > ./config/options/postfixTemplates.xml
