@@ -1,7 +1,9 @@
 <application>
   <component name="UISettings">
+    <option name="compactTreeIndents" value="true" />
     <option name="EDITOR_TAB_PLACEMENT" value="0" />
     <option name="OPEN_TABS_AT_THE_END" value="true" />
+    <option name="showTreeIndentGuides" value="true" />
     <option name="UI_DENSITY" value="COMPACT" />
   </component>
 </application>
