@@ -12,5 +12,3 @@ com.github.camork.fileExpander \
 com.joshestein.ideavim-quickscope \
 com.julienphalip.ideavim.peekaboo \
 eu.theblob42.idea.whichkey
-
-curl https://raw.githubusercontent.com/chubbyhippo/ideavimrc/main/.ideavimrc -o ~/.ideavimrc
