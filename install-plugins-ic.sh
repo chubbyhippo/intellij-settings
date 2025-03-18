@@ -22,5 +22,3 @@ mobi.hsz.idea.gitignore \
 nl.bryanderidder.regexrenamefiles \
 org.jetbrains.jumpToLine \
 org.sonarlint.idea
-
-curl https://raw.githubusercontent.com/chubbyhippo/ideavimrc/main/.ideavimrc -o ~/.ideavimrc
