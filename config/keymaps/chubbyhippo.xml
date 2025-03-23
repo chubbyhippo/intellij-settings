@@ -1,4 +1,9 @@
 <keymap version="1" name="chubbyhippo" parent="$default">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+    <keyboard-shortcut first-keystroke="ctrl insert" />
+    <keyboard-shortcut first-keystroke="meta c" />
+  </action>
   <action id="ActivateCommitToolWindow">
     <keyboard-shortcut first-keystroke="alt 0" />
     <keyboard-shortcut first-keystroke="ctrl alt 0" />
@@ -24,6 +29,9 @@
   </action>
   <action id="DuplicatesForm.SendToRight">
     <keyboard-shortcut first-keystroke="shift ctrl l" />
+  </action>
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="meta c" />
   </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
