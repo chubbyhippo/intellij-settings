@@ -1,4 +1,4 @@
-# Intellij-IDEA
+# Intellij-Settings
 ## Install settings 
 ### Intellij-Community
 ```shell
