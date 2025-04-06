@@ -1,5 +1,5 @@
 # Intellij-Settings
-## Install settings 
+## Setup
 ### Intellij-Community
 ```shell
 curl -s https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/setup-ic.sh | /usr/bin/env sh
