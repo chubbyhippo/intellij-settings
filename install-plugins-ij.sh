@@ -2,7 +2,7 @@
 
 cmd=idea
 if uname | grep -q "^MINGW"; then
-  cmd=idea64
+  cmd=idea.cmd
 fi
 
 $cmd installPlugins \
