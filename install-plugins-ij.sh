@@ -10,5 +10,6 @@ IdeaVIM \
 com.intellij.ml.llm \
 com.github.camork.fileExpander \
 com.joshestein.ideavim-quickscope \
+com.julienphalip.ideavim.functiontextobj \
 com.julienphalip.ideavim.peekaboo \
 eu.theblob42.idea.whichkey
