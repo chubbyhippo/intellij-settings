@@ -13,7 +13,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="random" value="java.util.concurrent.ThreadLocalRandom.current()" description="ThreadLocalRandom.current()" toReformat="false" toShortenFQNames="true">
+  <template name="random" value="java.util.concurrent.ThreadLocalRandom.current()" description="ThreadLocalRandom.current()" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
