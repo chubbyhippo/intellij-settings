@@ -13,9 +13,10 @@ fi
 
 $cmd installPlugins \
 IdeaVIM \
-com.intellij.ml.llm \
 com.github.camork.fileExpander \
+com.intellij.ml.llm \
 com.joshestein.ideavim-quickscope \
 com.julienphalip.ideavim.functiontextobj \
 com.julienphalip.ideavim.peekaboo \
-eu.theblob42.idea.whichkey
+eu.theblob42.idea.whichkey \
+org.jetbrains.jumpToLine
