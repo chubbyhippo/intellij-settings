@@ -133,6 +133,10 @@
   <action id="GotoBookmark9" />
   <action id="MethodHierarchy" />
   <action id="MethodHierarchy.BaseOnThisMethod" />
+  <action id="NewScratchFile">
+    <keyboard-shortcut first-keystroke="shift ctrl alt insert" />
+    <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
   <action id="PopupHector" />
   <action id="ResizeToolWindowDown">
     <keyboard-shortcut first-keystroke="shift ctrl alt down" />
