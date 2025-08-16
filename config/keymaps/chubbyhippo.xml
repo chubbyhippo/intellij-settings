@@ -93,6 +93,7 @@
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
+  <action id="EditorDownWithSelection" />
   <action id="EditorEscape">
     <keyboard-shortcut first-keystroke="escape" />
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
@@ -101,14 +102,20 @@
     <keyboard-shortcut first-keystroke="left" />
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
+  <action id="EditorLookupUp" />
+  <action id="EditorPreviousWord" />
+  <action id="EditorPreviousWordWithSelection" />
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
+  <action id="EditorScrollDown" />
+  <action id="EditorScrollUp" />
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
+  <action id="EditorUpWithSelection" />
   <action id="EscUnfollowUserAction">
     <keyboard-shortcut first-keystroke="escape" />
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
@@ -135,10 +142,13 @@
   <action id="GotoFile" />
   <action id="MethodHierarchy" />
   <action id="MethodHierarchy.BaseOnThisMethod" />
+  <action id="MethodOverloadSwitchUp" />
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="shift ctrl alt insert" />
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
+  <action id="NotebookSelectCellAboveAction" />
+  <action id="NotebookSelectCellBelowAction" />
   <action id="PopupHector" />
   <action id="ResizeToolWindowDown">
     <keyboard-shortcut first-keystroke="shift ctrl alt down" />
@@ -167,6 +177,9 @@
   <action id="RunCoverage">
     <keyboard-shortcut first-keystroke="ctrl 8" />
   </action>
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="page_up" />
+  </action>
   <action id="SelectAllOccurrences" />
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="context_menu" />
@@ -178,6 +191,8 @@
     <keyboard-shortcut first-keystroke="right" />
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
+  <action id="Terminal.LineDown" />
+  <action id="Terminal.LineUp" />
   <action id="Terminal.Paste">
     <keyboard-shortcut first-keystroke="ctrl v" />
     <keyboard-shortcut first-keystroke="shift insert" />
@@ -191,6 +206,7 @@
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
+  <action id="Terminal.SelectLastBlock" />
   <action id="Terminal.SwitchFocusToEditor">
     <keyboard-shortcut first-keystroke="escape" />
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
