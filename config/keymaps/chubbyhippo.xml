@@ -156,6 +156,7 @@
   <action id="NotebookSelectCellAboveAction" />
   <action id="NotebookSelectCellBelowAction" />
   <action id="PopupHector" />
+  <action id="Replace" />
   <action id="ResizeToolWindowDown">
     <keyboard-shortcut first-keystroke="shift ctrl alt down" />
     <keyboard-shortcut first-keystroke="shift ctrl alt j" />
@@ -207,6 +208,7 @@
     <keyboard-shortcut first-keystroke="shift insert" />
     <keyboard-shortcut first-keystroke="meta v" />
   </action>
+  <action id="Terminal.SearchInCommandHistory" />
   <action id="Terminal.SelectBlockAbove">
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl k" />
@@ -247,6 +249,7 @@
     <keyboard-shortcut first-keystroke="shift alt z" />
   </action>
   <action id="TypeHierarchy" />
+  <action id="UsageFiltering.ReadAccess" />
   <action id="Vcs.LLMCommitMessageAction">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
   </action>
