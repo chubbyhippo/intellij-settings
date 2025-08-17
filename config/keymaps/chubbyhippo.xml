@@ -67,10 +67,6 @@
   <action id="DuplicatesForm.SendToRight">
     <keyboard-shortcut first-keystroke="shift ctrl l" />
   </action>
-  <action id="EditSource">
-    <keyboard-shortcut first-keystroke="f4" />
-    <keyboard-shortcut first-keystroke="ctrl 4" />
-  </action>
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="meta c" />
   </action>
