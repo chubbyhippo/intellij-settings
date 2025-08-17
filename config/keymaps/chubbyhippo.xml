@@ -125,6 +125,7 @@
   </action>
   <action id="ExpressionTypeInfo" />
   <action id="FileChooser.GotoHome" />
+  <action id="FileChooser.GotoProject" />
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift f3" />
   </action>
