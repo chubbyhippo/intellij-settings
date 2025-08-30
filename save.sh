@@ -12,6 +12,8 @@ for config_path in \
 do
   echo "$config_path"
   if [ -d "$config_path" ]; then
+    # save code styles
+    cat "$config_path"/codestyles/Default.xml > ./config/codestyles/Default.xml
 
     # save keymaps
     cat "$config_path"/keymaps/chubbyhippo.xml > ./config/keymaps/chubbyhippo.xml
