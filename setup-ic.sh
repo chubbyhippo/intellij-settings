@@ -9,6 +9,9 @@ for config_path in \
 do
   if [ -d "$config_path" ]; then
     echo "$config_path"
+    # install code styles
+    mkdir -p "$config_path/codestyles"
+    curl -k https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/config/codestyles/Default.xml -o "$config_path/codestyles/Default.xml"
 
     # install keymaps
     mkdir -p "$config_path/keymaps"
