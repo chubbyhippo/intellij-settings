@@ -434,6 +434,10 @@
       </conditions>
       <template name="fakeKey" value="((char) ($EXPR$))$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="verify@userDefined" key=".verify" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="org.mockito.Mockito.verify($EXPR$, org.mockito.Mockito.times(1))$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+    </template>
     <template id="assertCall@userDefined" key=".assertCall" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
       <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatCode(() -&gt; $EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
