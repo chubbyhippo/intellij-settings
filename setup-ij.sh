@@ -33,6 +33,7 @@ do
     # install templates
     mkdir -p "$config_path/templates"
     curl -k https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/config/templates/java.xml -o "$config_path/templates/java.xml"
+    curl -k https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/config/templates/javaMockito.xml -o "$config_path/templates/javaMockito.xml"
 
   fi
 done
