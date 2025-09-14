@@ -30,6 +30,7 @@ do
 
     # save templates
     cat "$config_path"/templates/java.xml > ./config/templates/java.xml
+    cat "$config_path"/templates/javaJUnit.xml > ./config/templates/javaJUnit.xml
     cat "$config_path"/templates/javaMockito.xml > ./config/templates/javaMockito.xml
 
   fi
