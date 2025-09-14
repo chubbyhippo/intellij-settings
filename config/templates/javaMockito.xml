@@ -1,0 +1,13 @@
+<templateSet group="javaMockito">
+  <template name="spy" value="org.mockito.Mockito.spy($EXPR$)$END$" description="Mockito.spy" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="EXPR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="mock" value="org.mockito.Mockito.mock($END$)&#10;" description="Mockito.mock" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
