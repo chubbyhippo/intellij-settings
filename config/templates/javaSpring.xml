@@ -1,0 +1,9 @@
+<templateSet group="javaSpring">
+  <template name="restTemplateBypassSSL" value="javax.net.ssl.TrustManager[] trustAllCerts = new javax.net.ssl.TrustManager[]{&#10;        new javax.net.ssl.X509TrustManager() {&#10;            @java.lang.Override&#10;            public void checkClientTrusted(java.security.cert.X509Certificate[] chain, java.lang.String authType) {&#10;            }&#10;&#10;            @java.lang.Override&#10;            public void checkServerTrusted(java.security.cert.X509Certificate[] chain, java.lang.String authType) {&#10;            }&#10;&#10;            @java.lang.Override&#10;            public java.security.cert.X509Certificate[] getAcceptedIssuers() {&#10;                return new java.security.cert.X509Certificate[0];&#10;            }&#10;        }&#10;};&#10;try {&#10;    javax.net.ssl.SSLContext sslContext = getInstance(&quot;TLS&quot;);&#10;    sslContext.init(null, trustAllCerts, new java.security.SecureRandom());&#10;&#10;    setDefaultSSLSocketFactory(sslContext.getSocketFactory());&#10;    javax.net.ssl.HostnameVerifier allHostsValid = (_, _) -&gt; true;&#10;    setDefaultHostnameVerifier(allHostsValid);&#10;} catch (java.lang.Exception e) {&#10;    throw new java.lang.IllegalStateException(&quot;Failed to configure trust-all SSL&quot;, e);&#10;}&#10;return new org.springframework.web.client.RestTemplate();" description="RestTemplate bypass SSL" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_LANG_IO_STATEMENT" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
