@@ -35,6 +35,7 @@ do
     curl -k https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/config/templates/java.xml -o "$config_path/templates/java.xml"
     curl -k https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/config/templates/javaJUnit.xml -o "$config_path/templates/javaJUnit.xml"
     curl -k https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/config/templates/javaMockito.xml -o "$config_path/templates/javaMockito.xml"
+    curl -k https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/config/templates/javaSpring.xml -o "$config_path/templates/javaSpring.xml"
 
   fi
 done
