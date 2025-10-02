@@ -32,7 +32,7 @@ do
 
     # install templates
     mkdir -p "$config_path/templates"
-    curl -k https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/config/templates/java.xml -o "$config_path/templates/java.xml"
+    curl -k https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/config/templates/javaPure.xml -o "$config_path/templates/javaPure.xml"
     curl -k https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/config/templates/javaJUnit.xml -o "$config_path/templates/javaJUnit.xml"
     curl -k https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/config/templates/javaMockito.xml -o "$config_path/templates/javaMockito.xml"
     curl -k https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/config/templates/javaSpring.xml -o "$config_path/templates/javaSpring.xml"
