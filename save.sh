@@ -29,7 +29,7 @@ do
     cat "$config_path"/options/ui.lnf.xml > ./config/options/ui.lnf.xml
 
     # save templates
-    cat "$config_path"/templates/java.xml > ./config/templates/java.xml
+    cat "$config_path"/templates/javaPure.xml > ./config/templates/javaPure.xml
     cat "$config_path"/templates/javaJUnit.xml > ./config/templates/javaJUnit.xml
     cat "$config_path"/templates/javaMockito.xml > ./config/templates/javaMockito.xml
     cat "$config_path"/templates/javaSpring.xml > ./config/templates/javaSpring.xml
