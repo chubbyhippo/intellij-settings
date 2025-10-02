@@ -73,6 +73,13 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="anyList" value="org.mockito.Mockito.anyList()" description="Mockito.anyList" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_LANG_IO_STATEMENT" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
   <template name="anyIterable" value="org.mockito.Mockito.anyIterable()" description="Mockito.anyIterable" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
