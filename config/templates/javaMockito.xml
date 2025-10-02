@@ -31,7 +31,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="anyInt" value="org.mockito.Mockito.anyInt()" description="Mockito.anyInt" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="anyByte" value="org.mockito.Mockito.anyByte()" description="Mockito.anyByte" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_LANG_IO_STATEMENT" value="true" />
