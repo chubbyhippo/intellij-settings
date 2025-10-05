@@ -138,6 +138,13 @@
       </conditions>
       <template name="fakeKey" value="new java.io.PrintWriter($EXPR$, java.nio.charset.StandardCharsets.UTF_8)$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="assertThatThrownBy@userDefined" key=".assertThatThrownBy" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="void" />
+        <condition id="non void" />
+      </conditions>
+      <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatThrownBy($EXPR$).isInstanceOf($END$Exception.class)" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+    </template>
     <template id="toShort@userDefined" key=".toShort" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="fqn" fqn="java.lang.String" />
@@ -441,13 +448,6 @@
         <condition id="fqn" fqn="java.lang.Number" />
       </conditions>
       <template name="fakeKey" value="$EXPR$.byteValue()$END$" description="" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="assertThatThrownBy@userDefined" key=".assertThatThrownBy" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions>
-        <condition id="void" />
-        <condition id="non void" />
-      </conditions>
-      <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatThrownBy(() -&gt; $EXPR$).isInstanceOf($END$Exception.class)" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
     <template id="toBigDecimal@userDefined" key=".toBigDecimal" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
