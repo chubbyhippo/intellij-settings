@@ -415,10 +415,6 @@
       </conditions>
       <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThat($EXPR$).isEmpty()$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
-    <template id="assertThrowException@userDefined" key=".assertThrowException" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions />
-      <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatThrownBy(() -&gt; $EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
-    </template>
     <template id="toBigDecimal@userDefined3" key=".toBigDecimal" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="number" />
