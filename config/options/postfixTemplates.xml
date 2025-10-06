@@ -201,6 +201,10 @@
       <conditions />
       <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatCode($EXPR$).doesNotThrowAnyException()$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
+    <template id="catchException@userDefined" key=".catchException" provider="builtin.java" language-level="1.3" topmost="true">
+      <conditions />
+      <template name="fakeKey" value="org.assertj.core.api.Assertions.catchException($EXPR$)$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+    </template>
     <template id="readLine@userDefined" key=".readLine" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="fqn" fqn="java.io.BufferedReader" />
@@ -316,10 +320,6 @@
         <condition id="fqn" fqn="java.lang.String" />
       </conditions>
       <template name="fakeKey" value="java.util.Base64.getEncoder().encodeToString($EXPR$.getBytes())$END$" description="" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="catchException@userDefined" key=".catchException" provider="builtin.java" language-level="1.3" topmost="true">
-      <conditions />
-      <template name="fakeKey" value="org.assertj.core.api.Assertions.catchException(() -&gt; $EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
     <template id="toJSONArray@userDefined" key=".toJSONArray" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
