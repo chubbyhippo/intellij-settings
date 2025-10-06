@@ -16,6 +16,10 @@
       </conditions>
       <template name="fakeKey" value="$EXPR$.toInstant().atZone(ZoneId.systemDefault()).toLocalTime()$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="catchThrowable@userDefined" key=".catchThrowable" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="org.assertj.core.api.Assertions.catchThrowable($EXPR$)$END$&#10;" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+    </template>
     <template id="assertBlank@userDefined" key=".assertBlank" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="fqn" fqn="java.lang.String" />
@@ -282,10 +286,6 @@
     <template id="assertThat@userDefined" key=".assertThat" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
       <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThat($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
-    </template>
-    <template id="catchThrowable@userDefined" key=".catchThrowable" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions />
-      <template name="fakeKey" value="org.assertj.core.api.Assertions.catchThrowable(() -&gt; $EXPR$)$END$&#10;" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
     <template id="toString@userDefined" key=".toArrayString" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
