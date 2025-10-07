@@ -90,6 +90,7 @@
   </action>
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="ctrl alt j" />
+    <keyboard-shortcut first-keystroke="shift meta j" />
   </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
