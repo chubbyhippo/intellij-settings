@@ -2,20 +2,20 @@
 
 cmd=idea
 if uname | grep -q "^MINGW"; then
-  if command -v idea.cmd >/dev/null 2>&1; then
-    cmd=idea.cmd
-  elif command -v idea64 >/dev/null 2>&1; then
-    cmd=idea64
-  else
-    echo "Warning: neither idea.cmd nor idea64 found, falling back to idea"
-  fi
+	if command -v idea.cmd >/dev/null 2>&1; then
+		cmd=idea.cmd
+	elif command -v idea64 >/dev/null 2>&1; then
+		cmd=idea64
+	else
+		echo "Warning: neither idea.cmd nor idea64 found, falling back to idea"
+	fi
 fi
 
 $cmd installPlugins \
-IdeaVIM \
-com.github.camork.fileExpander \
-com.intellij.ml.llm \
-com.joshestein.ideavim-quickscope \
-com.julienphalip.ideavim.peekaboo \
-eu.theblob42.idea.whichkey \
-org.jetbrains.jumpToLine
+	IdeaVIM \
+	com.github.camork.fileExpander \
+	com.intellij.ml.llm \
+	com.joshestein.ideavim-quickscope \
+	com.julienphalip.ideavim.peekaboo \
+	eu.theblob42.idea.whichkey \
+	org.jetbrains.jumpToLine
