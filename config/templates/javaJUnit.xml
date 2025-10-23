@@ -13,4 +13,9 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="tempDirPath" value="@org.junit.jupiter.api.io.TempDir&#10;    private java.nio.file.Path path;&#10;&#10;    @org.junit.jupiter.api.Test&#10;    @org.junit.jupiter.api.DisplayName(&quot;test path temp dir&quot;)&#10;    void testPathTempDir() throws java.io.IOException {&#10;        var targetPath = &quot;etc/passwd/test.txt&quot;;&#10;&#10;        var nestedFile = path.resolve(targetPath);&#10;        assertThat(nestedFile).isNotNull();&#10;&#10;        java.nio.file.Files.createDirectories(nestedFile.getParent());&#10;        assertThat(exists(nestedFile)).isFalse();&#10;&#10;        java.nio.file.Files.write(nestedFile, &quot;test&quot;.getBytes());&#10;        assertThat(size(nestedFile)).isGreaterThan(0L);&#10;    }" description="JUnit @TempDir Path example" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
