@@ -8,10 +8,7 @@
   </template>
   <template name="testPropertySource" value="@org.springframework.test.context.TestPropertySource(properties = &quot;&quot;&quot;&#10;        my.config.name=configname&#10;        my.config.port=8080&#10;        &quot;&quot;&quot;)" description="Spring @TestPropertySource example" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="HAS_SPRING" value="true" />
-      <option name="HAS_SPRING_WEB" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_NORMAL_CLASS_DECLARATION_WITH_INSTANCE_MAIN" value="true" />
     </context>
   </template>
 </templateSet>
