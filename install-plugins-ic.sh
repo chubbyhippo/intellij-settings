@@ -27,5 +27,6 @@ $cmd installPlugins \
 	me.bechberger.jfrplugin \
 	mobi.hsz.idea.gitignore \
 	nl.bryanderidder.regexrenamefiles \
+	org.asciidoctor.intellij.asciidoc \
 	org.jetbrains.jumpToLine \
 	org.sonarlint.idea
