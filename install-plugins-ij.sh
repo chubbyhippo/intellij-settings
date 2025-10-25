@@ -18,4 +18,5 @@ $cmd installPlugins \
 	com.joshestein.ideavim-quickscope \
 	com.julienphalip.ideavim.peekaboo \
 	eu.theblob42.idea.whichkey \
+	org.asciidoctor.intellij.asciidoc \
 	org.jetbrains.jumpToLine
