@@ -61,6 +61,14 @@
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="ctrl 9" />
   </action>
+  <action id="Diff.ApplyLeftSide">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+    <keyboard-shortcut first-keystroke="ctrl period" />
+  </action>
+  <action id="Diff.ApplyRightSide">
+    <keyboard-shortcut first-keystroke="ctrl alt a" />
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
   <action id="DuplicatesForm.SendToLeft">
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
@@ -164,9 +172,17 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt insert" />
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
+  <action id="NextDiff">
+    <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
   <action id="NotebookSelectCellAboveAction" />
   <action id="NotebookSelectCellBelowAction" />
   <action id="PopupHector" />
+  <action id="PreviousDiff">
+    <keyboard-shortcut first-keystroke="shift f7" />
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
   <action id="Replace" />
   <action id="ResizeToolWindowDown">
     <keyboard-shortcut first-keystroke="shift ctrl alt down" />
