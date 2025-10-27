@@ -11,4 +11,12 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="springBootTestRandomPort" value="@org.springframework.boot.test.context.SpringBootTest(webEnvironment = org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT)" description="@SpringBootTest(webEnvironment = org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HAS_SPRING" value="true" />
+      <option name="HAS_SPRING_WEB" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_NORMAL_CLASS_DECLARATION_WITH_INSTANCE_MAIN" value="true" />
+    </context>
+  </template>
 </templateSet>
