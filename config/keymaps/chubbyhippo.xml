@@ -118,6 +118,14 @@
   <action id="EditorLookupUp" />
   <action id="EditorNextWord" />
   <action id="EditorNextWordWithSelection" />
+  <action id="EditorPageDown">
+    <keyboard-shortcut first-keystroke="page_down" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="EditorPageUp">
+    <keyboard-shortcut first-keystroke="page_up" />
+    <keyboard-shortcut first-keystroke="ctrl u" />
+  </action>
   <action id="EditorPreviousWord" />
   <action id="EditorPreviousWordWithSelection" />
   <action id="EditorRight">
@@ -213,9 +221,11 @@
   </action>
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="SearchEverywhere.NavigateToPrevGroup">
     <keyboard-shortcut first-keystroke="page_up" />
+    <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
   <action id="SelectAllOccurrences" />
   <action id="ShowBookmarks" />
