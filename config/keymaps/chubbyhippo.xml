@@ -34,7 +34,7 @@
   </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="alt 1" />
-    <keyboard-shortcut first-keystroke="ctrl alt 1" />
+    <keyboard-shortcut first-keystroke="meta 1" />
   </action>
   <action id="ChangesView.ShelveSilently" />
   <action id="CheckinProject" />
