@@ -41,6 +41,7 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="meta w" />
+    <keyboard-shortcut first-keystroke="ctrl 4" />
   </action>
   <action id="CloseDiffEditor">
     <keyboard-shortcut first-keystroke="escape" />
