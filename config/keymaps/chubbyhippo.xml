@@ -133,6 +133,7 @@
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
   <action id="EditorScrollDown" />
+  <action id="EditorScrollToCenter" />
   <action id="EditorScrollUp" />
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
@@ -174,6 +175,9 @@
   <action id="MethodHierarchy.BaseOnThisMethod" />
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
   <action id="NewScratchFile">
@@ -308,6 +312,7 @@
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
   <action id="Vcs.Push" />
+  <action id="Vcs.ShowMessageHistory" />
   <action id="VimPluginToggle">
     <keyboard-shortcut first-keystroke="shift alt v" />
   </action>
