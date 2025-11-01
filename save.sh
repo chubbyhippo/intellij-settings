@@ -31,6 +31,7 @@ for config_path in \
 		cat "$config_path"/templates/javaJUnit.xml >./config/templates/javaJUnit.xml
 		cat "$config_path"/templates/javaMockito.xml >./config/templates/javaMockito.xml
 		cat "$config_path"/templates/javaSpring.xml >./config/templates/javaSpring.xml
+		cat "$config_path"/templates/javaWireMock.xml >./config/templates/javaWireMock.xml
 
 	fi
 done
