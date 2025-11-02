@@ -27,10 +27,10 @@ for config_path in \
 		cat "$config_path"/options/windows/keymap.xml >./config/option/windows/keymap.xml
 
 		# save templates
+		cat "$config_path"/templates/javaJava.xml >./config/templates/javaJava.xml
 		cat "$config_path"/templates/javaJUnit.xml >./config/templates/javaJUnit.xml
 		cat "$config_path"/templates/javaJackson.xml >./config/templates/javaJackson.xml
 		cat "$config_path"/templates/javaMockito.xml >./config/templates/javaMockito.xml
-		cat "$config_path"/templates/javaPure.xml >./config/templates/javaPure.xml
 		cat "$config_path"/templates/javaSpring.xml >./config/templates/javaSpring.xml
 		cat "$config_path"/templates/javaWireMock.xml >./config/templates/javaWireMock.xml
 
