@@ -20,11 +20,11 @@ for config_path in \
 		cat "$config_path"/options/colors.scheme.xml >./config/options/colors.scheme.xml
 		cat "$config_path"/options/editor.xml >./config/options/editor.xml
 		cat "$config_path"/options/laf.xml >./config/options/laf.xml
+		cat "$config_path"/options/mac/keymap.xml >./config/options/mac/keymap.xml
 		cat "$config_path"/options/postfixTemplates.xml >./config/options/postfixTemplates.xml
 		cat "$config_path"/options/projectView.xml >./config/options/projectView.xml
-		cat "$config_path"/options/mac/keymap.xml >./config/options/mac/keymap.xml
-		cat "$config_path"/options/windows/keymap.xml >./config/option/windows/keymap.xml
 		cat "$config_path"/options/ui.lnf.xml >./config/options/ui.lnf.xml
+		cat "$config_path"/options/windows/keymap.xml >./config/option/windows/keymap.xml
 
 		# save templates
 		cat "$config_path"/templates/javaJUnit.xml >./config/templates/javaJUnit.xml
