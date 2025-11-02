@@ -31,6 +31,7 @@ for config_path in \
 		# install templates
 		mkdir -p "$config_path/templates"
 		curl -k https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/config/templates/javaJava.xml -o "$config_path/templates/javaJava.xml"
+		curl -k https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/config/templates/javaJackson.xml -o "$config_path/templates/javaJackson.xml"
 		curl -k https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/config/templates/javaJUnit.xml -o "$config_path/templates/javaJUnit.xml"
 		curl -k https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/config/templates/javaMockito.xml -o "$config_path/templates/javaMockito.xml"
 		curl -k https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main/config/templates/javaSpring.xml -o "$config_path/templates/javaSpring.xml"
