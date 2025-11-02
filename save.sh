@@ -26,8 +26,9 @@ for config_path in \
 		cat "$config_path"/options/ui.lnf.xml >./config/options/ui.lnf.xml
 		cat "$config_path"/options/windows/keymap.xml >./config/option/windows/keymap.xml
 
-		# save templates
+		# save template
 		cat "$config_path"/templates/javaJava.xml >./config/templates/javaJava.xml
+		# save other templates
 		cat "$config_path"/templates/javaJUnit.xml >./config/templates/javaJUnit.xml
 		cat "$config_path"/templates/javaJackson.xml >./config/templates/javaJackson.xml
 		cat "$config_path"/templates/javaMockito.xml >./config/templates/javaMockito.xml
