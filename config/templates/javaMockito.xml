@@ -113,4 +113,10 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="mockStaticExample" value="@org.junit.jupiter.api.Test&#10;    @org.junit.jupiter.api.DisplayName(&quot;test mock files.exists&quot;)&#10;    void testMockFilesExists() {&#10;        try (org.mockito.MockedStatic&lt;java.nio.file.Files&gt; filesMock = org.mockito.Mockito.mockStatic(java.nio.file.Files.class)) {&#10;            java.nio.file.Path mockPath = java.nio.file.Path.of(&quot;/test/file.txt&quot;);&#10;&#10;            filesMock.when(() -&gt; java.nio.file.Files.exists(mockPath))&#10;                    .thenReturn(true);&#10;&#10;            boolean exists = java.nio.file.Files.exists(mockPath);&#10;&#10;            org.assertj.core.api.Assertions.assertThat(exists).isTrue();&#10;&#10;            filesMock.verify(() -&gt; java.nio.file.Files.exists(mockPath));&#10;        }&#10;    }" description="Mockito.mockStatic Example" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_NORMAL_CLASS_DECLARATION_WITH_INSTANCE_MAIN" value="true" />
+    </context>
+  </template>
 </templateSet>
