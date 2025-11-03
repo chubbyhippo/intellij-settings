@@ -119,4 +119,10 @@
       <option name="JAVA_NORMAL_CLASS_DECLARATION_WITH_INSTANCE_MAIN" value="true" />
     </context>
   </template>
+  <template name="mockConstructionExample" value="@org.junit.jupiter.api.Test&#10;    @org.junit.jupiter.api.DisplayName(&quot;test mock construction&quot;)&#10;    void testMockConstruction() {&#10;        try (org.mockito.MockedConstruction&lt;io.github.chubbyhippo.mokito.MockitoTest.ExampleClass&gt; mocked = org.mockito.Mockito.mockConstruction(io.github.chubbyhippo.mokito.MockitoTest.ExampleClass.class,&#10;                (mock, _) -&gt; {&#10;                    org.mockito.Mockito.when(mock.isTrue()).thenReturn(false);&#10;                })) {&#10;&#10;            io.github.chubbyhippo.mokito.MockitoTest.ExampleClass example = new io.github.chubbyhippo.mokito.MockitoTest.ExampleClass();&#10;            java.lang.Boolean result = example.isTrue();&#10;&#10;            org.assertj.core.api.Assertions.assertThat(result).isFalse();&#10;            org.assertj.core.api.Assertions.assertThat(mocked.constructed()).hasSize(1);&#10;        }&#10;    }&#10;&#10;    private static class ExampleClass {&#10;        public java.lang.Boolean isTrue() {&#10;            return true;&#10;        }&#10;    }" description="Mockito.MockConstruction Example" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_NORMAL_CLASS_DECLARATION_WITH_INSTANCE_MAIN" value="true" />
+    </context>
+  </template>
 </templateSet>
