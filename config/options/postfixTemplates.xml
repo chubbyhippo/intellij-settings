@@ -18,7 +18,7 @@
     </template>
     <template id="catchThrowable@userDefined" key=".catchThrowable" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
-      <template name="fakeKey" value="org.assertj.core.api.Assertions.catchThrowable($EXPR$)$END$&#10;" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+      <template name="fakeKey" value="org.assertj.core.api.Assertions.catchThrowable($EXPR$)$END$&#10;" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
     <template id="assertBlank@userDefined" key=".assertBlank" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
@@ -147,7 +147,7 @@
         <condition id="void" />
         <condition id="non void" />
       </conditions>
-      <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatThrownBy($EXPR$).isInstanceOf($END$Exception.class)" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+      <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatThrownBy($EXPR$).isInstanceOf($END$Exception.class)" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
     <template id="toShort@userDefined" key=".toShort" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
@@ -203,11 +203,11 @@
     </template>
     <template id="assertNotThrowException@userDefined" key=".assertNotThrowException" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
-      <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatCode($EXPR$).doesNotThrowAnyException()$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+      <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatCode($EXPR$).doesNotThrowAnyException()$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
     <template id="catchException@userDefined" key=".catchException" provider="builtin.java" language-level="1.3" topmost="true">
       <conditions />
-      <template name="fakeKey" value="org.assertj.core.api.Assertions.catchException($EXPR$)$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+      <template name="fakeKey" value="org.assertj.core.api.Assertions.catchException($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
     <template id="readLine@userDefined" key=".readLine" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
@@ -359,7 +359,7 @@
     </template>
     <template id="assertThatNoException@userDefined" key=".assertThatNoException" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
-      <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatNoException().isThrownBy($EXPR$);$END$&#10;" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+      <template name="fakeKey" value="org.assertj.core.api.Assertions.assertThatNoException().isThrownBy($EXPR$);$END$&#10;" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
     <template id="readLine@userDefined2" key=".readLine" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
