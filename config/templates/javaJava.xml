@@ -123,7 +123,7 @@
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="consoleReaderConsole" value="java.io.Console console = System.console();&#10;if (console == null) {&#10;    System.out.println(&quot;This code only works when run from a real console&quot;);&#10;    System.exit(1);&#10;}&#10;&#10;String username = console.readLine(&quot;Enter username: &quot;);&#10;char[] passwordChars = console.readPassword(&quot;Enter password: &quot;);&#10;String password = new String(passwordChars);&#10;&#10;System.out.println(&quot;username = &quot; + username);&#10;System.out.println(&quot;password = &quot; + password);&#10;" description="Console reader using Console" toReformat="true" toShortenFQNames="true">
+  <template name="consoleReaderConsoleExample" value="java.io.Console console = System.console();&#10;if (console == null) {&#10;    System.out.println(&quot;This code only works when run from a real console&quot;);&#10;    System.exit(1);&#10;}&#10;&#10;String username = console.readLine(&quot;Enter username: &quot;);&#10;char[] passwordChars = console.readPassword(&quot;Enter password: &quot;);&#10;String password = new String(passwordChars);&#10;&#10;System.out.println(&quot;username = &quot; + username);&#10;System.out.println(&quot;password = &quot; + password);&#10;" description="Console reader using Console example" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
