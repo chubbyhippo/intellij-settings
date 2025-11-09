@@ -127,4 +127,13 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="mockConstruction" value="try (org.mockito.MockedConstruction&lt;$CLASS$&gt; $VAR$ = org.mockito.Mockito.mockConstruction($CLASS$.class,&#10;                (mock, context) -&gt; {&#10;                    when(mock.$END$).thenReturn();&#10;                })) {&#10;        }" description="Mockito.mockConstruction" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="CLASS" expression="variableOfType(Type)" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_LANG_IO_STATEMENT" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
