@@ -51,6 +51,7 @@
     <keyboard-shortcut first-keystroke="escape" />
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
   </action>
+  <action id="CollapseBlock" />
   <action id="Coverage">
     <keyboard-shortcut first-keystroke="shift ctrl 8" />
   </action>
