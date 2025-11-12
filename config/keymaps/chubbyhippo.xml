@@ -181,6 +181,9 @@
   </action>
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
+  </action>
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="shift ctrl alt insert" />
     <keyboard-shortcut first-keystroke="shift meta n" />
