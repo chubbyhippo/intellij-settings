@@ -183,10 +183,6 @@
       </conditions>
       <template name="fakeKey" value="Boolean.parseBoolean($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
-    <template id="spy@userDefined" key=".spy" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions />
-      <template name="fakeKey" value="org.mockito.Mockito.spy($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
-    </template>
     <template id="toPrintWriter@userDefined" key=".toPrintWriter" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="fqn" fqn="java.io.File" />
@@ -468,6 +464,10 @@
     <template id="catchThrowable@userDefined" key=".catchThrowable" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
       <template name="fakeKey" value="org.assertj.core.api.Assertions.catchThrowable($EXPR$)$END$&#10;" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+    </template>
+    <template id="spy@userDefined" key=".spy" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="org.mockito.Mockito.spy($EXPR$.class)$END$" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
     </template>
     <template id="toPath@userDefined" key=".toPath" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
