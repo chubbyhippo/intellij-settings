@@ -27,7 +27,7 @@
       <option name="JAVA_NORMAL_CLASS_DECLARATION_WITH_INSTANCE_MAIN" value="true" />
     </context>
   </template>
-  <template name="invokeMethod" value="org.springframework.test.util.ReflectionTestUtils.invokeMethod($OBJECT$, $METHOD_NAME$, $END$);" description="Spring ReflectionTestUtils.invokeMethod" toReformat="true" toShortenFQNames="true">
+  <template name="invokeMethod" value="org.springframework.test.util.ReflectionTestUtils.invokeMethod($OBJECT$, &quot;$METHOD_NAME$&quot;&quot;, $END$);" description="Spring ReflectionTestUtils.invokeMethod" toReformat="true" toShortenFQNames="true">
     <variable name="OBJECT" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
     <variable name="METHOD_NAME" expression="" defaultValue="&quot;methodName&quot;" alwaysStopAt="true" />
     <context>
