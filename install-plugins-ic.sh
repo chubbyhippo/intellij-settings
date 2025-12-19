@@ -25,6 +25,7 @@ $cmd installPlugins \
 	dev.maheshbabu11.http-client-plus \
 	dev.turingcomplete.intellijdevelopertoolsplugins \
 	eu.theblob42.idea.whichkey \
+	izhangzhihao.rainbow.brackets.lite \
 	me.bechberger.jfrplugin \
 	mobi.hsz.idea.gitignore \
 	nl.bryanderidder.regexrenamefiles \
