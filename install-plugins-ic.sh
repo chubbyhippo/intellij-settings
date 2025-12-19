@@ -22,6 +22,7 @@ $cmd installPlugins \
 	com.joshestein.ideavim-quickscope \
 	com.julienphalip.ideavim.peekaboo \
 	dev.flikas.idea.spring.boot.assistant.plugin \
+	dev.maheshbabu11.http-client-plus \
 	dev.turingcomplete.intellijdevelopertoolsplugins \
 	eu.theblob42.idea.whichkey \
 	me.bechberger.jfrplugin \
