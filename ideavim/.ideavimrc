@@ -367,7 +367,7 @@ map <leader>rn <action>(RenameElement)
 map <leader>ro <action>(ChangesView.Revert)
 map <leader>rp <action>(Replace)
 map <leader>rr <action>(ContextRun)
-map <leader>rs <action>(Resume)
+map <leader>rs <action>(runShellFileAction)
 map <leader>ru <action>(ChooseRunConfiguration)
 map <leader>rw <action>(ReplaceInPath)
 
