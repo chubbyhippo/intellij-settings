@@ -10,6 +10,9 @@ for config_path in \
   "$HOME"/AppData/Roaming/JetBrains/IntelliJIdea*; do
   echo "$config_path"
   if [ -d "$config_path" ]; then
+    # install code styles
+    mkdir -p "$config_path/codestyles"
+    cp -frv "config/codestyle"/* "$config_path/codestyles"
 
     # install keymaps
     mkdir -p "$config_path/keymaps"
