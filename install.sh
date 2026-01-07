@@ -8,8 +8,8 @@ for config_path in \
   "$HOME"/Library/Application\ Support/JetBrains/IntelliJIdea* \
   "$HOME"/AppData/Roaming/JetBrains/IdeaIC* \
   "$HOME"/AppData/Roaming/JetBrains/IntelliJIdea*; do
-  echo "$config_path"
   if [ -d "$config_path" ]; then
+  echo "$config_path"
     # install code styles
     mkdir -p "$config_path/codestyles"
     cp -frv "config/codestyle"/* "$config_path/codestyles"
