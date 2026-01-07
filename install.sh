@@ -31,3 +31,6 @@ done
 
 # plugins
 sh ./install-plugins-ij.sh
+
+# ideavim
+cp -f ./ideavim/.ideavimrc "$HOME"/.ideavimrc
