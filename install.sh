@@ -30,4 +30,4 @@ for config_path in \
 done
 
 # plugins
-sh intall-plugins-ij.sh
+sh ./install-plugins-ij.sh
