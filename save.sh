@@ -8,8 +8,8 @@ for config_path in \
   "$HOME"/AppData/Roaming/JetBrains/IntelliJIdea* \
   "$HOME"/Library/Application\ Support/JetBrains/IdeaIC* \
   "$HOME"/Library/Application\ Support/JetBrains/IntelliJIdea*; do
-  echo "$config_path"
   if [ -d "$config_path" ]; then
+  echo "$config_path"
     # save code styles
     cat "$config_path"/codestyles/Default.xml >./config/codestyles/Default.xml
 
