@@ -3,11 +3,11 @@
 # config paths
 for config_path in \
   "$HOME"/.config/JetBrains/IdeaIC* \
-  "$HOME"/Library/Application\ Support/JetBrains/IdeaIC* \
-  "$HOME"/AppData/Roaming/JetBrains/IdeaIC* \
   "$HOME"/.config/JetBrains/IntelliJIdea* \
-  "$HOME"/Library/Application\ Support/JetBrains/IntelliJIdea* \
-  "$HOME"/AppData/Roaming/JetBrains/IntelliJIdea*; do
+  "$HOME"/AppData/Roaming/JetBrains/IdeaIC* \
+  "$HOME"/AppData/Roaming/JetBrains/IntelliJIdea* \
+  "$HOME"/Library/Application\ Support/JetBrains/IdeaIC* \
+  "$HOME"/Library/Application\ Support/JetBrains/IntelliJIdea*; do
   echo "$config_path"
   if [ -d "$config_path" ]; then
     # save code styles
