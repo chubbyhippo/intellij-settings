@@ -25,6 +25,7 @@ for config_path in \
     curl -k "$RAW_INTELLIJ_SETTINGS_URL/config/options/colors.scheme.xml" -o "$config_path/options/colors.scheme.xml"
     curl -k "$RAW_INTELLIJ_SETTINGS_URL/config/options/postfixTemplates.xml" -o "$config_path/options/postfixTemplates.xml"
     curl -k "$RAW_INTELLIJ_SETTINGS_URL/config/options/projectView.xml" -o "$config_path/options/projectView.xml"
+    curl -k "$RAW_INTELLIJ_SETTINGS_URL/config/options/ui.datetime.xml" -o "$config_path/options/ui.datetime.xml"
     curl -k "$RAW_INTELLIJ_SETTINGS_URL/config/options/ui.lnf.xml" -o "$config_path/options/ui.lnf.xml"
     mkdir -p "$config_path/options/mac"
     curl -k "$RAW_INTELLIJ_SETTINGS_URL/config/options/mac/keymap.xml" -o "$config_path/options/mac/keymap.xml"
