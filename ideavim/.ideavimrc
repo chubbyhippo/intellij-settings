@@ -428,6 +428,7 @@ map <leader>vP <action>(Vcs.Push)
 map <leader>wc :q<CR>
 map <leader>wh <c-w>h
 map <leader>wj <c-w>j
+map <leader>wk <c-w>k
 map <leader>wl <c-w>l
 
 " Show intention actions
