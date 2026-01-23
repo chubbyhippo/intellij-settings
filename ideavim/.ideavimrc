@@ -239,7 +239,7 @@ map <leader>cn <action>(ClearAllNotifications)
 map <leader>co <action>(CloseAllEditorsButActive)
 map <leader>cp <action>(WelcomeScreen.Plugins)
 map <leader>cs <action>(SettingsEntryPoint)
-map <leader>cr <action>(CollapseRegion)
+map <leader>cr <action>(Refactorings.QuickListPopupAction)
 map <leader>cv :edit ~/.ideavimrc<cr>
 
 " Debug / run mappings
