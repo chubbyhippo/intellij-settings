@@ -424,8 +424,8 @@ map <leader>vl <action>(Vcs.Show.Log)
 map <leader>vp <action>(Git.Pull)
 map <leader>vP <action>(Vcs.Push)
 
-" <leader>w – surround with code template
-map <leader>w <action>(SurroundWith)
+" <leader>w – windows
+map <leader>wc :q<CR>
 
 " Show intention actions
 map <leader><cr> <action>(ShowIntentionActions)
