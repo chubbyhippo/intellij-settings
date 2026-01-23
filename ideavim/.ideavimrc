@@ -427,7 +427,8 @@ map <leader>vP <action>(Vcs.Push)
 " <leader>w – windows
 map <leader>wc :q<CR>
 map <leader>wh <c-w>h
-map <leader>wk <c-w>k
+map <leader>wj <c-w>j
+map <leader>wl <c-w>l
 
 " Show intention actions
 map <leader><cr> <action>(ShowIntentionActions)
