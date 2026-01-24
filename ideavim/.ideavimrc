@@ -227,6 +227,7 @@ map <leader>av <action>(ActivateVersionControlToolWindow)
 
 " Buffers
 map <leader>bn :bn<CR>
+map <leader>bp :bp<CR>
 map <leader>b] :bn<CR>
 
 " Education plugin helpers
