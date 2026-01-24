@@ -229,6 +229,7 @@ map <leader>av <action>(ActivateVersionControlToolWindow)
 map <leader>bn :bn<CR>
 map <leader>bp :bp<CR>
 map <leader>b] :bn<CR>
+map <leader>b[ :bp<CR>
 
 " Education plugin helpers
 map <leader>C <action>(Educational.Check)
