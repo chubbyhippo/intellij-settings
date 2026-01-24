@@ -225,8 +225,8 @@ map <leader>at <action>(ActivateTerminalToolWindow)
 map <leader>aT <action>(ActivateTaskToolWindow)
 map <leader>av <action>(ActivateVersionControlToolWindow)
 
-" Recently used files
-map <leader>b <action>(RecentFiles)
+" Buffers
+map <leader>bn :bn<CR>
 
 " Education plugin helpers
 map <leader>C <action>(Educational.Check)
