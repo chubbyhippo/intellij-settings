@@ -226,6 +226,7 @@ map <leader>aT <action>(ActivateTaskToolWindow)
 map <leader>av <action>(ActivateVersionControlToolWindow)
 
 " Buffers
+map <leader>bi :ls<CR>
 map <leader>bn :bn<CR>
 map <leader>bp :bp<CR>
 map <leader>b] :bn<CR>
