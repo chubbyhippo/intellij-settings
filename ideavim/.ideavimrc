@@ -236,8 +236,9 @@ map <leader>b[ :bp<CR>
 " Education plugin helpers
 map <leader>C <action>(Educational.Check)
 
-" <leader>c – clear / close / collapse / config
+" Code /clear / close / collapse / config
 map <leader>ca <action>(CloseAllEditors)
+map <leader>cd <action>(GotoDeclaration)
 map <leader>ck <action>(ChangeKeymap)
 map <leader>ch <action>(CallHierarchy)
 map <leader>cn <action>(ClearAllNotifications)
