@@ -439,6 +439,7 @@ map <leader>wh <c-w>h
 map <leader>wj <c-w>j
 map <leader>wk <c-w>k
 map <leader>wl <c-w>l
+map <leader>wq :q<CR>
 map <leader>ws :sp<CR>
 map <leader>wv :vs<CR>
 
