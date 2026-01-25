@@ -276,6 +276,7 @@ map <leader>fm <action>(ReformatCode)
 map <leader>fn <action>(NewElement)
 map <leader>fo <action>(ReformatCode)
 map <leader>fp <action>(FindInPath)
+map <leader>fr <action>(RecentFiles)
 map <leader>fs <action>(ToggleFullScreen)
 map <leader>fu <action>(FindUsages)
 
