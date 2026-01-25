@@ -239,6 +239,7 @@ map <leader>C <action>(Educational.Check)
 " Code /clear / close / collapse / config
 map <leader>ca <action>(CloseAllEditors)
 map <leader>cd <action>(GotoDeclaration)
+map <leader>cf <action>(ReformatCode)
 map <leader>ck <action>(ChangeKeymap)
 map <leader>ch <action>(CallHierarchy)
 map <leader>cn <action>(ClearAllNotifications)
