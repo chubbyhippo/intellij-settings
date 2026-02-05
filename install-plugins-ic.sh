@@ -20,6 +20,7 @@ $cmd installPlugins \
   com.fwdekker.randomness \
   com.github.camork.fileExpander \
   com.github.clojure-lsp \
+  com.github.clojure-repl \
   com.joshestein.ideavim-quickscope \
   com.julienphalip.ideavim.peekaboo \
   dev.flikas.idea.spring.boot.assistant.plugin \
