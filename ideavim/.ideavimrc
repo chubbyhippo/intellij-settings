@@ -253,8 +253,8 @@ map <leader>cv :edit ~/.ideavimrc<cr>
 
 " Debug / run mappings
 map <leader>db <action>(Debug)
-map <leader>de <action>(Debug)
 map <leader>dd <action>(ContextDebug)
+map <leader>de <action>(Debug)
 " Clear all marks
 map <leader>dm :delmarks 0-9A-Z<cr>
 
