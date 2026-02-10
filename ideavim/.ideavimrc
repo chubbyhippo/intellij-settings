@@ -339,6 +339,7 @@ map <leader>ns <action>(NewScratchFile)
 map <leader>nt <action>(TerminalNewPredefinedSession)
 
 " <leader>o – open / optimize / override
+map <leader>oP <action>(OpenFile)
 map <leader>ob <action>(OpenInBrowser)
 map <leader>oe <action>(RevealIn)
 map <leader>of <action>(OpenFile)
@@ -346,7 +347,6 @@ map <leader>og <action>(Vcs.Log.OpenAnotherTabInEditor)
 map <leader>oi <action>(OptimizeImports)
 map <leader>om <action>(OverrideMethods)
 map <leader>op <action>(ActivateProjectToolWindow)
-map <leader>oP <action>(OpenFile)
 map <leader>or <action>(RecentProjectListGroup)
 map <leader>ot <action>(Terminal.OpenInTerminal)
 
