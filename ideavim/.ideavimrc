@@ -352,8 +352,8 @@ map <leader>ot <action>(Terminal.OpenInTerminal)
 
 " Project/ Popup / parameter info / docs
 map <leader>pd <action>(QuickJavaDoc)
-map <leader>ph <action>(ShowHoverInfo)
 map <leader>pf <action>(GotoFile)
+map <leader>ph <action>(ShowHoverInfo)
 map <leader>pi <action>(QuickImplementations)
 map <leader>pm <action>(ShowPopupMenu)
 map <leader>pp <action>(ParameterInfo)
