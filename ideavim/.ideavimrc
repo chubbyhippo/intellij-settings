@@ -364,12 +364,12 @@ map <leader>pt <action>(PinActiveTabToggle)
 map <leader>q :q<CR>
 
 " <leader>r – run / refactor / replace
-map <leader>ra <action>(RunAnything)
 map <leader>rA <action>(RunnerActions)
-map <leader>rb <action>(Vcs.RollbackChangedLines)
 map <leader>rB <action>(ChangesView.Revert)
-map <leader>rc <action>(RunCoverage)
 map <leader>rC <action>(Coverage)
+map <leader>ra <action>(RunAnything)
+map <leader>rb <action>(Vcs.RollbackChangedLines)
+map <leader>rc <action>(RunCoverage)
 map <leader>rd <action>(DebugClass)
 map <leader>re <action>(Refactorings.QuickListPopupAction)
 map <leader>rf <action>(RecentFiles)
