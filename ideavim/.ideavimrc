@@ -226,13 +226,13 @@ map <leader>aT <action>(ActivateTaskToolWindow)
 map <leader>av <action>(ActivateVersionControlToolWindow)
 
 " Buffers
+map <leader>bO <action>(CloseAllEditorsButActive)
+map <leader>b[ :bp<CR>
+map <leader>b] :bn<CR>
 map <leader>bi :ls<CR>
 map <leader>bk :q<CR>
 map <leader>bn :bn<CR>
-map <leader>bO <action>(CloseAllEditorsButActive)
 map <leader>bp :bp<CR>
-map <leader>b] :bn<CR>
-map <leader>b[ :bp<CR>
 
 " Education plugin helpers
 map <leader>C <action>(Educational.Check)
