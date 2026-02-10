@@ -229,6 +229,7 @@ map <leader>av <action>(ActivateVersionControlToolWindow)
 map <leader>bi :ls<CR>
 map <leader>bk :q<CR>
 map <leader>bn :bn<CR>
+map <leader>bO <action>(CloseAllEditorsButActive)
 map <leader>bp :bp<CR>
 map <leader>b] :bn<CR>
 map <leader>b[ :bp<CR>
