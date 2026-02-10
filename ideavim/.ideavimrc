@@ -274,8 +274,8 @@ map <leader>ev <action>(IntroduceVariable)
 
 " <leader>f – find / format
 map <leader>fe <action>(RevealIn)
-map <leader>fi <action>(Find)
 map <leader>ff <action>(FindInPath)
+map <leader>fi <action>(Find)
 map <leader>fm <action>(ReformatCode)
 map <leader>fn <action>(NewElement)
 map <leader>fo <action>(ReformatCode)
