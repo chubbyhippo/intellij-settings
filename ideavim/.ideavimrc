@@ -331,6 +331,7 @@ map <leader>mf <action>(ToggleCompactMode)
 map <leader>mk <action>(TogglePresentationAssistantAction)
 map <leader>mp <action>(TogglePresentationAssistantAction)
 map <leader>mP <action>(TogglePresentationMode)
+map <leader>mv <action>(ChangeView)
 map <leader>mz <action>(ToggleZenMode)
 
 " Education plugin navigation
