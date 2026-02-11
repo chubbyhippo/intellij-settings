@@ -335,6 +335,7 @@ map <leader>mP <action>(TogglePresentationMode)
 map <leader>mt <action>(ViewToolButtons)
 map <leader>mT <action>(ViewToolBar)
 map <leader>mv <action>(ChangeView)
+map <leader>mw <action>(ViewToolBar)
 map <leader>mz <action>(ToggleZenMode)
 
 " Education plugin navigation
