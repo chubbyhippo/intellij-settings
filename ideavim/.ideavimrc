@@ -325,7 +325,7 @@ map <leader>k <action>(ChangeKeymap)
 map <leader>lh <action>(LocalHistory.ShowHistory)
 map <leader>lH <action>(LocalHistory.ShowSelectionHistory)
 
-" Show marks
+" Mode
 map <leader>m :marks<CR>
 
 " Education plugin navigation
