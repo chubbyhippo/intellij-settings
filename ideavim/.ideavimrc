@@ -328,7 +328,7 @@ map <leader>lH <action>(LocalHistory.ShowSelectionHistory)
 " Mode
 map <leader>mc <action>(ToggleCompactMode)
 map <leader>md <action>(ToggleDistractionFreeMode)
-map <leader>mf <action>(ToggleCompactMode)
+map <leader>mf <action>(ToggleFullScreen)
 map <leader>mk <action>(TogglePresentationAssistantAction)
 map <leader>mp <action>(TogglePresentationAssistantAction)
 map <leader>mP <action>(TogglePresentationMode)
