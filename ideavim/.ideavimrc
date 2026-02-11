@@ -326,7 +326,7 @@ map <leader>lh <action>(LocalHistory.ShowHistory)
 map <leader>lH <action>(LocalHistory.ShowSelectionHistory)
 
 " Mode
-map <leader>m :marks<CR>
+map <leader>mp <action>TogglePresentationAssistantAction
 
 " Education plugin navigation
 map <leader>N <action>(Educational.NextTask)
