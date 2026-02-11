@@ -327,7 +327,8 @@ map <leader>lH <action>(LocalHistory.ShowSelectionHistory)
 
 " Mode
 map <leader>mc <action>(ToggleCompactMode)
-map <leader>mf <action>(ToggleFullScreen)
+map <leader>mf <action>(ToggleCompactMode)
+map <leader>mk <action>(TogglePresentationAssistantAction)
 map <leader>mp <action>(TogglePresentationAssistantAction)
 
 " Education plugin navigation
