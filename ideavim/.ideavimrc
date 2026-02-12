@@ -228,6 +228,7 @@ map <leader>av <action>(ActivateVersionControlToolWindow)
 
 " Buffers
 map <leader>bO <action>(CloseAllEditorsButActive)
+map <leader>bh :bp<CR>
 map <leader>b[ :bp<CR>
 map <leader>b] :bn<CR>
 map <leader>bi :ls<CR>
