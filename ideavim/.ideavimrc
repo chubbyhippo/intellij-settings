@@ -227,6 +227,7 @@ map <leader>aT <action>(ActivateTaskToolWindow)
 map <leader>av <action>(ActivateVersionControlToolWindow)
 
 " Buffers
+map <leader>1 :buffer 1<CR>
 map <leader>bO <action>(CloseAllEditorsButActive)
 map <leader>b[ :bp<CR>
 map <leader>b] :bn<CR>
