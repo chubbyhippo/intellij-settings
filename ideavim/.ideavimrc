@@ -230,6 +230,7 @@ map <leader>av <action>(ActivateVersionControlToolWindow)
 nnoremap <leader>1 :buffer 1<CR>
 nnoremap <leader>2 :buffer 2<CR>
 nnoremap <leader>3 :buffer 3<CR>
+nnoremap <leader>4 :buffer 4<CR>
 map <leader>bO <action>(CloseAllEditorsButActive)
 map <leader>b[ :bp<CR>
 map <leader>b] :bn<CR>
