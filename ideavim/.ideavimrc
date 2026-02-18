@@ -237,9 +237,9 @@ nnoremap <leader>7 :buffer 7<CR>
 nnoremap <leader>8 :buffer 8<CR>
 nnoremap <leader>9 :buffer 9<CR>
 map <leader>bO <action>(CloseAllEditorsButActive)
-map <leader>bd :q<CR>
 map <leader>b[ :bp<CR>
 map <leader>b] :bn<CR>
+map <leader>bd :q<CR>
 map <leader>bh :bp<CR>
 map <leader>bi :ls<CR>
 map <leader>bk :q<CR>
