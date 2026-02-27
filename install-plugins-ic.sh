@@ -14,6 +14,7 @@ fi
 $cmd installPlugins \
   "Builder Generator" \
   "Lombook Plugin" \
+  "PlantUML integration" \
   "String Manipulation" \
   IdeaVIM \
   StringToolsPlugin \
