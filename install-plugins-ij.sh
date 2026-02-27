@@ -12,6 +12,7 @@ if uname | grep -q "^MINGW"; then
 fi
 
 $cmd installPlugins \
+  "PlantUML integration" \
   IdeaVIM \
   com.github.camork.fileExpander \
   com.intellij.ml.llm \
