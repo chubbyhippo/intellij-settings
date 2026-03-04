@@ -16,6 +16,7 @@ $cmd installPlugins \
   IdeaVIM \
   com.github.camork.fileExpander \
   com.intellij.ml.llm \
+  com.intellij.plugins.macoskeymap \
   com.joshestein.ideavim-quickscope \
   com.julienphalip.ideavim.peekaboo \
   dev.turingcomplete.intellijdevelopertoolsplugins \
