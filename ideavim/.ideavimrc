@@ -504,7 +504,7 @@ vmap } S}
 " Jupyter Notebook actions
 map ,R <action>(NotebookRunAllAboveAction)
 map ,d <action>(NotebookDeleteCellAction)
-map ,i <action>(NotebookInsertCodeCellActionPlusIcon)
+map ,ic <action>(NotebookInsertCodeCellActionPlusIcon)
 map ,j <action>(NotebookMoveCellDownAction)
 map ,k <action>(NotebookMoveCellUpAction)
 map ,ra <action>(NotebookRunAllAction)
