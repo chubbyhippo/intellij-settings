@@ -507,5 +507,6 @@ map ,d <action>(NotebookDeleteCellAction)
 map ,i <action>(NotebookInsertCodeCellActionPlusIcon)
 map ,ra <action>(NotebookRunAllAction)
 map ,rr <action>(NotebookRunCellSelectBelowAction)
+map ,j <action>(NotebookMoveCellDownAction)
 map ,k <action>(NotebookMoveCellUpAction)
 
