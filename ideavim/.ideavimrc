@@ -500,3 +500,6 @@ vmap [ S[
 vmap ] S[
 vmap { S{
 vmap } S}
+
+" Notebook actions
+map ,i <action>(NotebookInsertCodeCellActionPlusIcon)
