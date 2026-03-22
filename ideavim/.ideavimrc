@@ -505,3 +505,4 @@ vmap } S}
 map ,i <action>(NotebookInsertCodeCellActionPlusIcon)
 map ,r <action>(NotebookRunCellSelectBelowAction)
 map ,R <action>(NotebookRunAllAboveAction)
+map ,D <action>(NotebookDeleteCellAction)
