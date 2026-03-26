@@ -314,6 +314,7 @@ map <leader>gl <action>(Vcs.Show.Log)
 map <leader>gp <action>(Git.Pull)
 map <leader>gs <action>(GotoSuperMethod)
 map <leader>gt <action>(GotoTest)
+map <leader>gw <action>(Git.Show.WorkingTrees)
 
 " Hide all tool windows
 map <leader>h <action>(HideAllWindows)
