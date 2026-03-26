@@ -226,6 +226,7 @@ map <leader>aS <action>(ActivateServicesToolWindow)
 map <leader>at <action>(ActivateTerminalToolWindow)
 map <leader>aT <action>(ActivateTaskToolWindow)
 map <leader>av <action>(ActivateVersionControlToolWindow)
+map <leader>aw <action>(Git.Show.WorkingTrees)
 
 " Buffers
 nnoremap <leader>1 :buffer 1<CR>
