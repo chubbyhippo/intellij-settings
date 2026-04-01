@@ -508,6 +508,7 @@ vmap } S}
 map ,R <action>(NotebookRunAllAboveAction)
 map ,at <action>(JupyterCellAddTagAction)
 map ,d <action>(NotebookDeleteCellAction)
+map ,iC <action>(NotebookInsertCodeCellAction)
 map ,ic <action>(NotebookInsertCodeCellActionPlusIcon)
 map ,im <action>(NotebookInsertMarkdownCellAction)
 map ,j <action>(NotebookMoveCellDownAction)
