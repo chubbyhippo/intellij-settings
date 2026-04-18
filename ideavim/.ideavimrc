@@ -263,6 +263,7 @@ map <leader>cn <action>(ClearAllNotifications)
 map <leader>co <action>(CloseAllEditorsButActive)
 map <leader>cp <action>(WelcomeScreen.Plugins)
 map <leader>cr <action>(RenameElement)
+map <leader>cR <action>(Refactorings.QuickListPopupAction)
 map <leader>cs <action>(SettingsEntryPoint)
 map <leader>cv :edit ~/.ideavimrc<cr>
 
