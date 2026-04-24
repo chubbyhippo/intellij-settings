@@ -505,16 +505,3 @@ vmap [ S[
 vmap ] S[
 vmap { S{
 vmap } S}
-
-" Jupyter Notebook actions
-map ,R <action>(NotebookRunAllAboveAction)
-map ,at <action>(JupyterCellAddTagAction)
-map ,d <action>(NotebookDeleteCellAction)
-map ,iC <action>(NotebookInsertCodeCellAction)
-map ,ic <action>(NotebookInsertCodeCellActionPlusIcon)
-map ,im <action>(NotebookInsertMarkdownCellAction)
-map ,j <action>(NotebookMoveCellDownAction)
-map ,k <action>(NotebookMoveCellUpAction)
-map ,ra <action>(NotebookRunAllAction)
-map ,rr <action>(NotebookRunCellSelectBelowAction)
-
