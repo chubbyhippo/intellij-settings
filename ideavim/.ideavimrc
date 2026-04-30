@@ -7,9 +7,8 @@ set clipboard+=unnamedplus
 " Use IDE-aware join behavior
 set ideajoin
 
-" Case-insensitive search by default...
+" Case-insensitive search by default
 set ignorecase
-" ...but become case-sensitive if the pattern contains uppercase letters
 set smartcase
 
 " Show absolute + relative line numbers
