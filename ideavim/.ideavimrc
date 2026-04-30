@@ -328,6 +328,7 @@ map <leader>il <action>(Inline)
 map <leader>im <action>(ImplementMethods)
 map <leader>in <action>(Inline)
 map <leader>ip <action>(IntroduceParameter)
+map <leader>iP <action>(refactoring.introduce.property)
 map <leader>iv <action>(IntroduceVariable)
 
 " Quick docs / implementations
