@@ -199,6 +199,7 @@ map <leader>.r <action>(RunConfiguration)
 map <leader>.R <action>(RestartIde)
 map <leader>.s <action>(SettingsEntryPoint)
 map <leader>.t <action>(ViewToolButtons)
+map <leader>.T <action>(ChangeLaf)
 map <leader>.v :edit ~/.ideavimrc<cr>
 map <leader>.z <action>(ToggleZenMode)
 
