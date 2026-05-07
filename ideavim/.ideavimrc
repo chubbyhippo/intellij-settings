@@ -287,6 +287,7 @@ map <leader>em <action>(ExtractMethod)
 map <leader>ep <action>(IntroduceParameter)
 map <leader>er <action>(ExpandRegion)
 map <leader>ev <action>(IntroduceVariable)
+map <leader>eV <action>(refactoring.introduce.property)
 
 " <leader>f – find / format
 map <leader>fe <action>(RevealIn)
