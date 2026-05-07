@@ -451,6 +451,7 @@ map <leader>th :tabm<Space>-<CR>
 map <leader>tk <action>(TogglePresentationAssistantAction)
 map <leader>tl :tabm<Space>+<CR>
 map <leader>tn :set number!<CR>
+map <leader>tr :set relativenumber!<CR>
 map <leader>tt <action>(ViewToolButtons)
 map <leader>tv <action>(VimPluginToggle)
 map <leader>tz <action>(ToggleZenMode)
