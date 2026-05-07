@@ -114,7 +114,7 @@ map _ <action>(StretchSplitToLeft)
 map + <action>(StretchSplitToRight)
 
 " Quick editing/reloading of IdeaVim config
-map <Space>eV :edit ~/.ideavimrc<cr>
+map <Space>.v :edit ~/.ideavimrc<cr>
 map <Space>sV :source ~/.ideavimrc<cr>
 
 " VCS / diff / error navigation
@@ -200,7 +200,6 @@ map <leader>.R <action>(RestartIde)
 map <leader>.s <action>(SettingsEntryPoint)
 map <leader>.t <action>(ChangeLaf)
 map <leader>.T <action>(ViewToolButtons)
-map <leader>.v :edit ~/.ideavimrc<cr>
 map <leader>.z <action>(ToggleZenMode)
 
 " <leader>a – Activate tool windows
