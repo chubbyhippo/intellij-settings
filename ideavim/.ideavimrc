@@ -365,7 +365,7 @@ map <leader>nd <action>(NewDir)
 map <leader>ne <action>(NewElement)
 map <leader>nf <action>(NewFile)
 map <leader>np <action>(NewProject)
-map <leader>ns <action>(NewScratchFile)
+map <leader>ns <action>(Macro.NewScratchFile)
 map <leader>nt <action>(TerminalNewPredefinedSession)
 
 " <leader>o – open / optimize / override
