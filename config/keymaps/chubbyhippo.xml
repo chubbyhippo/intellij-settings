@@ -152,6 +152,7 @@
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl k" />
+    <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
   <action id="EditorUpWithSelection" />
   <action id="EscUnfollowUserAction">
