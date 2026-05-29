@@ -130,7 +130,9 @@
   </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
-  <action id="EditorNextWord" />
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
   <action id="EditorNextWordWithSelection" />
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="page_down" />
