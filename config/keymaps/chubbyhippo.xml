@@ -142,7 +142,9 @@
     <keyboard-shortcut first-keystroke="page_up" />
     <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
-  <action id="EditorPreviousWord" />
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
   <action id="EditorPreviousWordWithSelection" />
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
