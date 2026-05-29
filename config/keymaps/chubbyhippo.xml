@@ -20,7 +20,6 @@
     <keyboard-shortcut first-keystroke="shift meta z" />
   </action>
   <action id="$SelectAll">
-    <keyboard-shortcut first-keystroke="ctrl a" />
     <keyboard-shortcut first-keystroke="meta a" />
   </action>
   <action id="$Undo">
@@ -119,6 +118,10 @@
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
     <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="ctrl a" />
   </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
