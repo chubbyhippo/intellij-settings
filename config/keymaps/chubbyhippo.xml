@@ -105,6 +105,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt j" />
     <keyboard-shortcut first-keystroke="shift meta j" />
   </action>
+  <action id="EditorDecreaseFontSizeGlobal" />
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="ctrl j" />
@@ -153,6 +154,10 @@
   <action id="EditorScrollDown" />
   <action id="EditorScrollToCenter" />
   <action id="EditorScrollUp" />
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="ctrl home" />
+    <keyboard-shortcut first-keystroke="shift alt comma" />
+  </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl k" />
