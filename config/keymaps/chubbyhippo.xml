@@ -119,6 +119,10 @@
     <keyboard-shortcut first-keystroke="left" />
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="end" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
   <action id="EditorLineStart">
     <keyboard-shortcut first-keystroke="home" />
     <keyboard-shortcut first-keystroke="ctrl a" />
@@ -220,6 +224,8 @@
     <keyboard-shortcut first-keystroke="alt left" />
     <keyboard-shortcut first-keystroke="shift ctrl comma" />
   </action>
+  <action id="RecentFiles" />
+  <action id="RecentFilesFallback" />
   <action id="Replace" />
   <action id="ResizeToolWindowDown">
     <keyboard-shortcut first-keystroke="shift ctrl alt down" />
@@ -263,6 +269,8 @@
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
   <action id="ShowReformatFileDialog" />
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="TableResult.SelectAllOccurrences" />
   <action id="Terminal.InsertInlineCompletionItem">
     <keyboard-shortcut first-keystroke="right" />
