@@ -16,6 +16,7 @@ $cmd installPlugins \
   "Lombook Plugin" \
   "PlantUML integration" \
   "String Manipulation" \
+  AceJump \
   IdeaVIM \
   StringToolsPlugin \
   com.fwdekker.randomness \

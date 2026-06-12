@@ -13,6 +13,7 @@ fi
 
 $cmd installPlugins \
   "PlantUML integration" \
+  AceJump \
   IdeaVIM \
   com.github.camork.fileExpander \
   com.intellij.ml.llm \
