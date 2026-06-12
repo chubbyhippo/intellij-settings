@@ -340,9 +340,12 @@ map <leader>iv <action>(IntroduceVariable)
 map <leader>jd <action>(QuickJavaDoc)
 map <leader>ji <action>(QuickImplementations)
 
-" Avy-style jumps (requires AceJump plugin)
-" jw: hint every word | jl: hint every line | jc: type chars, then hints
-map <leader>jw <action>(AceWordAction)
+" Avy-style jumps (requires AceJump + IdeaVim-EasyMotion plugins)
+" Keep easymotion from claiming <leader><leader> (bound to alternate-file above)
+let g:EasyMotion_do_mapping=0
+set easymotion
+" jw: type 2 chars, then hints | jl: hint every line | jc: incremental chars + hints
+map <leader>jw <Plug>(easymotion-s2)
 map <leader>jl <action>(AceLineAction)
 map <leader>jc <action>(AceAction)
 

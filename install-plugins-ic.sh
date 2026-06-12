@@ -33,4 +33,5 @@ $cmd installPlugins \
   mobi.hsz.idea.gitignore \
   nl.bryanderidder.regexrenamefiles \
   org.asciidoctor.intellij.asciidoc \
+  org.jetbrains.IdeaVim-EasyMotion \
   org.jetbrains.jumpToLine
