@@ -33,6 +33,7 @@ let g:WhichKeyDesc_e = "<leader>e Extract, Edit..."
 let g:WhichKeyDesc_f = "<leader>f Format, Find..."
 let g:WhichKeyDesc_g = "<leader>g Git, Generate, Goto..."
 let g:WhichKeyDesc_i = "<leader>i Inline, Introduce, Id..."
+let g:WhichKeyDesc_j = "<leader>j Jump, JavaDoc..."
 let g:WhichKeyDesc_l = "<leader>l LocalHistory..."
 let g:WhichKeyDesc_m = "<leader>m Mode..."
 let g:WhichKeyDesc_n = "<leader>n New..."
@@ -338,6 +339,11 @@ map <leader>iv <action>(IntroduceVariable)
 " Quick docs / implementations
 map <leader>jd <action>(QuickJavaDoc)
 map <leader>ji <action>(QuickImplementations)
+
+" Avy-style jumps (requires AceJump plugin)
+map <leader>jw <action>(AceWordAction)   " hint every visible word
+map <leader>jl <action>(AceLineAction)   " hint every line
+map <leader>jc <action>(AceAction)       " type chars, then hints
 
 " Change keymap
 map <leader>k <action>(ChangeKeymap)
