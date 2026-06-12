@@ -341,9 +341,10 @@ map <leader>jd <action>(QuickJavaDoc)
 map <leader>ji <action>(QuickImplementations)
 
 " Avy-style jumps (requires AceJump plugin)
-map <leader>jw <action>(AceWordAction)   " hint every visible word
-map <leader>jl <action>(AceLineAction)   " hint every line
-map <leader>jc <action>(AceAction)       " type chars, then hints
+" jw: hint every word | jl: hint every line | jc: type chars, then hints
+map <leader>jw <action>(AceWordAction)
+map <leader>jl <action>(AceLineAction)
+map <leader>jc <action>(AceAction)
 
 " Change keymap
 map <leader>k <action>(ChangeKeymap)
