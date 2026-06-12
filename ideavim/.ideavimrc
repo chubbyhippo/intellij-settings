@@ -91,6 +91,9 @@ sethandler <c-s-n> a:vim
 " Space is the leader key
 let mapleader=" "
 
+" M-m behaves like <leader> (must be map, not noremap)
+map <A-m> <Space>
+
 " Insert mode: Ctrl-j/k move cursor up/down (IDE-like)
 imap <c-j> <down>
 imap <c-k> <up>
