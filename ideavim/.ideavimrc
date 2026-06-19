@@ -348,6 +348,9 @@ map <leader>jw <Plug>(easymotion-s2)
 map <leader>jl <Plug>(easymotion-bd-jk)
 map <leader>jc <Plug>(easymotion-sn)
 
+" Normal mode: s jumps with EasyMotion 2-char search (overrides vim-sneak's s)
+nmap s <Plug>(easymotion-s2)
+
 " Change keymap
 map <leader>k <action>(ChangeKeymap)
 
