@@ -348,7 +348,7 @@ map <leader>jl <Plug>(easymotion-bd-jk)
 map <leader>jc <Plug>(easymotion-sn)
 
 " Normal mode: s/S jump with EasyMotion 2-char search
-nmap s <Plug>(easymotion-s2)
+nmap s <Plug>(easymotion-bd-f2)
 nmap S <Plug>(easymotion-bd-f2)
 
 " Change keymap
