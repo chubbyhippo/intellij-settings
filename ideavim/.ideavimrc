@@ -342,11 +342,6 @@ map <leader>ji <action>(QuickImplementations)
 " Keep easymotion from claiming <leader><leader> (bound to alternate-file above)
 let g:EasyMotion_do_mapping=0
 set easymotion
-" jw: type 2 chars, then hints | jl: hint every line | jc: incremental chars + hints
-map <leader>jw <Plug>(easymotion-s2)
-map <leader>jl <Plug>(easymotion-bd-jk)
-map <leader>jc <Plug>(easymotion-sn)
-
 " Normal mode: s/S jump with EasyMotion 2-char search
 nmap s <Plug>(easymotion-bd-f2)
 nmap S <Plug>(easymotion-bd-jk)
