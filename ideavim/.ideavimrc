@@ -17,7 +17,6 @@ set number
 " Enable various UX plugins
 set peekaboo          " Show registers on `"` / `@`
 set quickscope        " Highlight f/F/t/T targets
-set sneak             " Enhanced motion (s / S)
 set surround          " Text objects for surroundings like (), "", etc.
 set visualbell        " Use visual bell instead of audible
 
@@ -348,7 +347,7 @@ map <leader>jw <Plug>(easymotion-s2)
 map <leader>jl <Plug>(easymotion-bd-jk)
 map <leader>jc <Plug>(easymotion-sn)
 
-" Normal mode: s/S jump with EasyMotion 2-char search (overrides vim-sneak's s/S)
+" Normal mode: s/S jump with EasyMotion 2-char search
 nmap s <Plug>(easymotion-s2)
 nmap S <Plug>(easymotion-bd-f2)
 
