@@ -47,21 +47,6 @@ let g:WhichKeyDesc_commentray_prefix = "j"
 " Insert mode: jj quickly returns to Normal mode
 imap jj <Esc>
 
-" Multiple cursors plugin configuration
-set multiple-cursors
-" Add next occurrence (normal/visual)
-map <c-n> <Plug>NextWholeOccurrence
-xmap <c-n> <Plug>NextWholeOccurrence
-" Add next occurrence (word-wise)
-map g<c-n> <Plug>NextOccurrence
-xmap g<c-n> <Plug>NextOccurrence
-" Skip/remove occurrences in visual mode
-xmap <c-x> <Plug>SkipOccurrence
-xmap <c-p> <Plug>RemoveOccurrence
-" Select all whole occurrences
-map <c-s-n> <Plug>AllWholeOccurrences
-xmap <c-s-n> <Plug>AllWholeOccurrences
-
 " Control-key handler routing: whether keys go to IDE or Vim
 " a - all modes, n - normal, i - insert, v - visual
 sethandler <c-a> a:ide
