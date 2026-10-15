@@ -11,8 +11,9 @@ set ideajoin
 set ignorecase
 set smartcase
 
-" Show absolute line numbers
+" Show absolute and relativenumber line numbers
 set number
+set relativenumber
 
 " Enable various UX plugins
 set peekaboo          " Show registers on `"` / `@`
