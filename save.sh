@@ -12,9 +12,11 @@ for config_path in \
     echo "$config_path"
 
     # save keymaps
+    mkdir -p config/keymaps
     cp -f "$config_path"/keymaps/emacs.xml ./config/keymaps/emacs.xml
 
     # save options
+    mkdir -p config/options
     cp -f "$config_path"/options/colors.scheme.xml ./config/options/colors.scheme.xml
     cp -f "$config_path"/options/editor.xml ./config/options/editor.xml
     cp -f "$config_path"/options/projectView.xml ./config/options/projectView.xml
@@ -23,6 +25,3 @@ for config_path in \
 
   fi
 done
-
-# save .ideavimrc
-cp -f "$HOME"/.ideavimrc ./ideavim/.ideavimrc
