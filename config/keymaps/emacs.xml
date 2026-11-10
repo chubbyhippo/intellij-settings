@@ -65,12 +65,19 @@
     <keyboard-shortcut first-keystroke="shift ctrl f12" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="h" />
   </action>
+  <action id="NewScratchFile">
+    <keyboard-shortcut first-keystroke="shift ctrl alt insert" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="n" />
+  </action>
   <action id="RefactoringMenu">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="r" />
   </action>
   <action id="ResetIdeScaleAction">
     <keyboard-shortcut first-keystroke="shift alt 0" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl 0" />
+  </action>
+  <action id="RestartIde">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="shift s" />
   </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="shift e" />
