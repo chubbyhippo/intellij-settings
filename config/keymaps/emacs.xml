@@ -4,10 +4,6 @@
     <keyboard-shortcut first-keystroke="alt 0" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="c" />
   </action>
-  <action id="ActivateProblemsViewToolWindow">
-    <keyboard-shortcut first-keystroke="alt 6" />
-    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="shift p" />
-  </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="alt 1" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="e" />
@@ -26,6 +22,10 @@
   </action>
   <action id="ChangeKeymap">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="k" />
+  </action>
+  <action id="ChangesView.Revert">
+    <keyboard-shortcut first-keystroke="ctrl alt z" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="shift r" />
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="ctrl alt w" />
