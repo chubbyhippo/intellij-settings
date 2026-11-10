@@ -65,6 +65,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl f12" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="h" />
   </action>
+  <action id="RefactoringMenu">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="r" />
+  </action>
   <action id="ResetIdeScaleAction">
     <keyboard-shortcut first-keystroke="shift alt 0" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl 0" />
