@@ -19,6 +19,7 @@ for config_path in \
     mkdir -p config/options
     cp -f "$config_path"/options/colors.scheme.xml ./config/options/colors.scheme.xml
     cp -f "$config_path"/options/editor.xml ./config/options/editor.xml
+    cp -f "$config_path"/options/laf.xml ./config/options/laf.xml
     cp -f "$config_path"/options/projectView.xml ./config/options/projectView.xml
     cp -f "$config_path"/options/ui-datetime.xml ./config/options/ui-datetime.xml
     cp -f "$config_path"/options/ui.lnf.xml ./config/options/ui.lnf.xml
