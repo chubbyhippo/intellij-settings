@@ -57,6 +57,7 @@
   </action>
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="f" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="shift f" />
   </action>
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="p" />
