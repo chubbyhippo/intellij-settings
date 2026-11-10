@@ -57,4 +57,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl k" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="shift p" />
   </action>
+  <action id="ZoomInIdeAction">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl equals" />
+  </action>
+  <action id="ZoomOutIdeAction">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl minus" />
+  </action>
 </keymap>
