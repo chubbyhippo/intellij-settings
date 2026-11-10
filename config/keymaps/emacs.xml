@@ -39,6 +39,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl f12" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="h" />
   </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="shift e" />
+  </action>
   <action id="RunAnything" />
   <action id="Terminal.ClearPrompt" />
   <action id="Terminal.CopySelectedText">
