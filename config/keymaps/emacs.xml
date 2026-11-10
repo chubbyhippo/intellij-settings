@@ -35,6 +35,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl w" />
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="f" />
+  </action>
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="shift ctrl f12" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="h" />
