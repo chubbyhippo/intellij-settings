@@ -1,5 +1,7 @@
 <keymap version="1" name="emacs" parent="Emacs">
-  <action id="ActivateBookmarksToolWindow" />
+  <action id="ActivateBookmarksToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="b" />
+  </action>
   <action id="ActivateCommitToolWindow">
     <keyboard-shortcut first-keystroke="alt 0" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="c" />
