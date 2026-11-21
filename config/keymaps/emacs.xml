@@ -128,6 +128,7 @@
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="shift p" />
+    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="shift p" />
   </action>
   <action id="ZoomInIdeAction">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl equals" />
