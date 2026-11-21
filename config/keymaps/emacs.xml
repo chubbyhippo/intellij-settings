@@ -21,6 +21,7 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="t" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="t" />
   </action>
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="alt 9" />
