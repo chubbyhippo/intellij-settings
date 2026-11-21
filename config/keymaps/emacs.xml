@@ -14,6 +14,7 @@
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="alt 1" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="e" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="e" />
   </action>
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="alt 7" />
