@@ -1,4 +1,8 @@
 <keymap version="1" name="emacs" parent="Emacs">
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="shift delete" />
+    <keyboard-shortcut first-keystroke="shift ctrl back_space" />
+  </action>
   <action id="AIAssistant.Editor.AskAiAssistantInEditor" />
   <action id="ActivateBookmarksToolWindow">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="b" />
@@ -53,6 +57,9 @@
     <keyboard-shortcut first-keystroke="ctrl subtract" />
     <keyboard-shortcut first-keystroke="shift alt minus" />
   </action>
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="shift ctrl back_space" />
+  </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="ctrl alt w" />
     <keyboard-shortcut first-keystroke="ctrl equals" />
@@ -95,6 +102,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl f12" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="h" />
   </action>
+  <action id="JumpToLastChange" />
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="shift ctrl alt insert" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="n" />
