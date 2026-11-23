@@ -3,6 +3,9 @@
     <keyboard-shortcut first-keystroke="shift delete" />
     <keyboard-shortcut first-keystroke="shift ctrl back_space" />
   </action>
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="shift o" />
+  </action>
   <action id="AIAssistant.Editor.AskAiAssistantInEditor" />
   <action id="ActivateBookmarksToolWindow">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="b" />
@@ -59,6 +62,9 @@
   </action>
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="shift ctrl back_space" />
+  </action>
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="shift o" />
   </action>
   <action id="EditorEnter">
     <keyboard-shortcut first-keystroke="enter" />
