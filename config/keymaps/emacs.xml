@@ -71,6 +71,10 @@
     <keyboard-shortcut first-keystroke="ctrl m" />
     <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
+  <action id="EditorForwardParagraph">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+    <keyboard-shortcut first-keystroke="shift alt close_bracket" />
+  </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="ctrl alt w" />
     <keyboard-shortcut first-keystroke="ctrl equals" />
@@ -139,9 +143,11 @@
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="shift e" />
   </action>
   <action id="RunAnything" />
-  <action id="RunClass">
-    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+  <action id="RunContextPopupGroup">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="x" />
+  </action>
+  <action id="RunDashboard.Run">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
   </action>
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="ctrl alt t" />
@@ -161,5 +167,8 @@
   </action>
   <action id="ZoomOutIdeAction">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl minus" />
+  </action>
+  <action id="runShellFileAction">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
   </action>
 </keymap>
