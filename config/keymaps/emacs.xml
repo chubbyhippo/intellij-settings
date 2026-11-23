@@ -134,6 +134,11 @@
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="n" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="right" />
   </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="alt left" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="p" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="left" />
+  </action>
   <action id="RefactoringMenu">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="r" />
     <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="r" />
