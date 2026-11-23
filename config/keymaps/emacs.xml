@@ -23,6 +23,7 @@
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="e" />
     <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="e" />
     <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="p" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl p" />
   </action>
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="alt 7" />
