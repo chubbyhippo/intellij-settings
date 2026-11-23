@@ -149,6 +149,9 @@
     <keyboard-shortcut first-keystroke="shift alt 0" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl 0" />
   </action>
+  <action id="RestartIde">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="alt r" />
+  </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="shift e" />
   </action>
@@ -169,6 +172,10 @@
   <action id="Terminal.ClearPrompt" />
   <action id="Terminal.CopySelectedText">
     <keyboard-shortcut first-keystroke="ctrl insert" />
+  </action>
+  <action id="ToggleBookmarkWithMnemonic">
+    <keyboard-shortcut first-keystroke="ctrl f11" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="m" />
   </action>
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
