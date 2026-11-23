@@ -66,6 +66,10 @@
   <action id="Editor LRU">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="shift o" />
   </action>
+  <action id="EditorBackwardParagraph">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+    <keyboard-shortcut first-keystroke="shift alt open_bracket" />
+  </action>
   <action id="EditorEnter">
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="ctrl m" />
