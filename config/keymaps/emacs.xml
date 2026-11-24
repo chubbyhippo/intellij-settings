@@ -106,10 +106,6 @@
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="shift f" />
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="f" />
   </action>
-  <action id="Git.Pull">
-    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="p" />
-    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="p" />
-  </action>
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="alt g" second-keystroke="g" />
   </action>
@@ -123,6 +119,7 @@
     <keyboard-shortcut first-keystroke="shift f2" />
     <keyboard-shortcut first-keystroke="shift ctrl x" second-keystroke="back_quote" />
     <keyboard-shortcut first-keystroke="alt g" second-keystroke="p" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="p" />
   </action>
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="shift ctrl f12" />
@@ -182,11 +179,6 @@
   <action id="ToggleBookmarkWithMnemonic">
     <keyboard-shortcut first-keystroke="ctrl f11" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="m" />
-  </action>
-  <action id="Vcs.Push">
-    <keyboard-shortcut first-keystroke="shift ctrl k" />
-    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="shift p" />
-    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="shift p" />
   </action>
   <action id="ZoomInIdeAction">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl equals" />
