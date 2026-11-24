@@ -145,6 +145,7 @@
   <action id="RefactoringMenu">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="r" />
     <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="a" />
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="f" />
