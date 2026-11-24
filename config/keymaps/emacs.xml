@@ -42,6 +42,11 @@
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="shift b" />
   </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="alt comma" />
+  </action>
   <action id="ChangeKeymap">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="k" />
   </action>
