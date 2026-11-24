@@ -106,6 +106,9 @@
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="shift f" />
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="f" />
   </action>
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="shift p" />
+  </action>
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="alt g" second-keystroke="g" />
   </action>
@@ -164,9 +167,6 @@
   </action>
   <action id="RunDashboard.Run">
     <keyboard-shortcut first-keystroke="shift ctrl f10" />
-  </action>
-  <action id="ShowPlugins">
-    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="alt p" />
   </action>
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="ctrl alt t" />
