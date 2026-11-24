@@ -117,6 +117,7 @@
     <keyboard-shortcut first-keystroke="f2" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="back_quote" />
     <keyboard-shortcut first-keystroke="alt g" second-keystroke="n" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="n" />
   </action>
   <action id="GotoPreviousError">
     <keyboard-shortcut first-keystroke="shift f2" />
