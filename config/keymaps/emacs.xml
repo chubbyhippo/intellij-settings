@@ -18,6 +18,10 @@
   <action id="ActivateMavenToolWindow">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="m" />
   </action>
+  <action id="ActivateProblemsViewToolWindow">
+    <keyboard-shortcut first-keystroke="alt 6" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="alt p" />
+  </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="alt 1" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="e" />
