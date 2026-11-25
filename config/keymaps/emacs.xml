@@ -132,6 +132,10 @@
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="h" />
   </action>
   <action id="InsertLiveTemplate" />
+  <action id="IntroduceConstant">
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="c" />
+  </action>
   <action id="JumpToLastChange" />
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="shift ctrl alt insert" />
